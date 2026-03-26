@@ -1,0 +1,419 @@
+[2025-03-14 08:41:26.713173] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 08:41:26.713173] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN\admin\uploads\checkin_test.jpg
+[2025-03-14 08:41:26.713173] ❌ Lỗi: Không tìm thấy ảnh - C:\xampp\htdocs\HTTTDN\admin\uploads\checkin_test.jpg
+[2025-03-14 08:51:50.881703] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 08:51:50.886434] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN\admin\uploads\employees\7\checkin_1741916699.jpg
+[2025-03-14 08:51:50.921465] ❌ Không tìm thấy ảnh profile của nhân viên ID=checkin
+[2025-03-14 08:53:26.701276] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 08:53:26.703829] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN\admin\uploads\employees\7\checkin_1741916699.jpg
+[2025-03-14 08:53:26.703829] ❌ Không tìm thấy ảnh profile của nhân viên ID=checkin
+[2025-03-14 08:56:25.616989] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 08:56:25.616989] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN\admin\uploads\employees\7\checkin_1741916699.jpg
+[2025-03-14 08:56:25.638035] ❌ Không tìm thấy ảnh profile của nhân viên ID=checkin
+[2025-03-14 09:02:22.440253] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 09:02:22.440253] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN\admin\uploads\employees\7\checkin_1741916699.jpg
+[2025-03-14 09:02:22.455277] 📂 Đường dẫn profile: C:/xampp/htdocs/HTTTDN/admin/uploads/employees/7\profile.jpg
+[2025-03-14 09:02:36.441939] ❌ Không khớp với profile: ID=7, Độ tin cậy=0.6520141884731652
+[2025-03-14 09:03:35.719705] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 09:03:35.727240] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741916953.jpg
+[2025-03-14 09:03:35.727240] 📂 Đường dẫn profile: C:/xampp/htdocs/HTTTDN/admin/uploads/employees/7\profile.jpg
+[2025-03-14 09:03:51.436417] ❌ Không khớp với profile: ID=7, Độ tin cậy=0.5644046620555467
+[2025-03-14 09:13:24.502125] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 09:13:24.512641] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741918335.jpg
+[2025-03-14 09:13:24.512641] 📂 Đường dẫn profile: C:/xampp/htdocs/HTTTDN/admin/uploads/employees/7\profile.jpg
+[2025-03-14 09:13:55.192055] ✅ Nhận diện thành công: ID=7, Độ tin cậy=0.0
+[2025-03-14 09:14:28.749711] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 09:14:28.765331] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN\admin\uploads\employees\7\checkin_1741916699.jpg
+[2025-03-14 09:14:28.765331] ❌ Lỗi: Không tìm thấy ảnh - C:\xampp\htdocs\HTTTDN\admin\uploads\employees\7\checkin_1741916699.jpg
+[2025-03-14 09:15:36.315549] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 09:15:36.315549] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741918335.jpg
+[2025-03-14 09:15:36.315549] 📂 Đường dẫn profile: C:/xampp/htdocs/HTTTDN/admin/uploads/employees/7\profile.jpg
+[2025-03-14 09:15:49.431187] ✅ Nhận diện thành công: ID=7, Độ tin cậy=0.0
+[2025-03-14 09:19:01.877584] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 09:19:01.877584] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741918335.jpg
+[2025-03-14 09:19:01.877584] 📂 Đường dẫn profile: C:/xampp/htdocs/HTTTDN/admin/uploads/employees/7\profile.jpg
+[2025-03-14 09:19:15.338805] ✅ Nhận diện thành công: ID=7, Độ tin cậy=0.0
+[2025-03-14 09:24:52.828041] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 09:24:52.828041] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741918335.jpg
+[2025-03-14 09:24:52.828041] 📂 Đường dẫn profile: C:/xampp/htdocs/HTTTDN/admin/uploads/employees/7\profile.jpg
+[2025-03-14 09:25:06.506908] ✅ Nhận diện thành công: ID=7, Độ tin cậy=0.0
+[2025-03-14 09:26:09.859984] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 09:26:09.859984] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741918335.jpg
+[2025-03-14 09:26:09.859984] 📂 Đường dẫn profile: C:/xampp/htdocs/HTTTDN/admin/uploads/employees/7\profile.jpg
+[2025-03-14 09:26:24.775629] ✅ Nhận diện thành công: ID=7, Độ tin cậy=0.0
+[2025-03-14 09:29:16.012285] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 09:29:16.012285] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741918335.jpg
+[2025-03-14 09:29:16.012285] 📂 Đường dẫn profile: C:/xampp/htdocs/HTTTDN/admin/uploads/employees/7\profile.jpg
+[2025-03-14 09:29:28.792698] ✅ Nhận diện thành công: ID=7, Độ tin cậy=0.0
+[2025-03-14 09:31:20.384666] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 09:31:20.384666] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741919458.jpg
+[2025-03-14 09:31:20.384666] ❌ Lỗi: Không tìm thấy ảnh - C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741919458.jpg
+[2025-03-14 09:34:14.730986] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 09:34:14.734535] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741919633.jpg
+[2025-03-14 09:34:14.734535] 📂 Đường dẫn profile: C:/xampp/htdocs/HTTTDN/admin/uploads/employees/7\profile.jpg
+[2025-03-14 09:34:27.560238] ✅ Nhận diện thành công: ID=7, Độ tin cậy=0.1339009847240168
+[2025-03-14 09:35:11.403420] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 09:35:11.403420] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741919689.jpg
+[2025-03-14 09:35:11.403420] 📂 Đường dẫn profile: C:/xampp/htdocs/HTTTDN/admin/uploads/employees/7\profile.jpg
+[2025-03-14 09:35:24.179518] ✅ Nhận diện thành công: ID=7, Độ tin cậy=0.24221765719344868
+[2025-03-14 09:36:58.721760] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 09:36:58.729060] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741919795.jpg
+[2025-03-14 09:36:58.729060] 📂 Đường dẫn profile: C:/xampp/htdocs/HTTTDN/admin/uploads/employees/7\profile.jpg
+[2025-03-14 09:37:13.587040] ✅ Nhận diện thành công: ID=7, Độ tin cậy=0.15251306928722508
+[2025-03-14 09:40:24.085793] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 09:40:24.085793] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741920002.jpg
+[2025-03-14 09:40:24.085793] 📂 Đường dẫn ảnh profile: C:/xampp/htdocs/HTTTDN/admin/uploads/employees/7\profile.jpg
+[2025-03-14 09:40:36.506730] ✅ Nhận diện thành công: ID=7, Độ tin cậy=0.14519101296544745
+[2025-03-14 09:41:12.284638] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 09:41:12.284638] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741920052.jpg
+[2025-03-14 09:41:12.284638] 📂 Đường dẫn ảnh profile: C:/xampp/htdocs/HTTTDN/admin/uploads/employees/7\profile.jpg
+[2025-03-14 09:41:25.797105] ✅ Nhận diện thành công: ID=7, Độ tin cậy=0.14249864345288032
+[2025-03-14 09:45:33.686126] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 09:45:33.686126] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741920310.jpg
+[2025-03-14 09:45:33.686126] 📂 Đường dẫn ảnh profile: C:/xampp/htdocs/HTTTDN/admin/uploads/employees/7\profile.jpg
+[2025-03-14 09:45:49.118521] ✅ Nhận diện thành công: ID=7, Độ tin cậy=0.15104036791144826
+[2025-03-14 09:50:44.176755] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 09:50:44.176755] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741920622.jpg
+[2025-03-14 09:50:44.176755] 📂 Đường dẫn ảnh profile: C:/xampp/htdocs/HTTTDN/admin/uploads/employees/7\profile.jpg
+[2025-03-14 09:50:46.214377] ⚠️ Lỗi phát hiện khuôn mặt: Face could not be detected in C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741920622.jpg.Please confirm that the picture is a face photo or consider to set enforce_detection param to False.
+[2025-03-14 09:51:28.863595] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 09:51:28.867129] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741920665.jpg
+[2025-03-14 09:51:28.867129] 📂 Đường dẫn ảnh profile: C:/xampp/htdocs/HTTTDN/admin/uploads/employees/7\profile.jpg
+[2025-03-14 09:51:54.906556] ❌ Lỗi khi so sánh khuôn mặt: Exception while processing img1_path
+[2025-03-14 09:52:20.345053] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 09:52:20.345053] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741920716.jpg
+[2025-03-14 09:52:20.360676] 📂 Đường dẫn ảnh profile: C:/xampp/htdocs/HTTTDN/admin/uploads/employees/7\profile.jpg
+[2025-03-14 09:52:23.024651] ⚠️ Lỗi phát hiện khuôn mặt: Face could not be detected in C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741920716.jpg.Please confirm that the picture is a face photo or consider to set enforce_detection param to False.
+[2025-03-14 09:52:59.693283] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 09:52:59.693283] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741920757.jpg
+[2025-03-14 09:52:59.703375] 📂 Đường dẫn ảnh profile: C:/xampp/htdocs/HTTTDN/admin/uploads/employees/7\profile.jpg
+[2025-03-14 09:53:01.809558] ⚠️ Lỗi phát hiện khuôn mặt: Face could not be detected in C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741920757.jpg.Please confirm that the picture is a face photo or consider to set enforce_detection param to False.
+[2025-03-14 09:54:39.973801] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 09:54:39.973801] 📂 Đường dẫn ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741920857.jpg
+[2025-03-14 09:54:39.993922] 📂 Đường dẫn ảnh profile: C:/xampp/htdocs/HTTTDN/admin/uploads/employees/7\profile.jpg
+[2025-03-14 09:54:47.497635] ❌ Lỗi khi so sánh khuôn mặt: Exception while processing img1_path
+[2025-03-14 10:01:03.951811] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 10:01:03.951811] 📂 Ảnh đầu vào: recognize
+[2025-03-14 10:01:03.951811] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741921242.jpg
+[2025-03-14 10:01:03.951811] ❌ Không tìm thấy ảnh: recognize
+[2025-03-14 10:02:13.367686] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 10:02:13.367686] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741921312.jpg
+[2025-03-14 10:02:13.367686] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 10:02:25.787060] ✅ Nhận diện thành công! Độ tin cậy: 0.17075417058709297
+[2025-03-14 10:03:05.783500] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 10:03:05.783500] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741921366.jpg
+[2025-03-14 10:03:05.783500] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 10:03:18.441226] ✅ Nhận diện thành công! Độ tin cậy: 0.1424622689094679
+[2025-03-14 10:07:18.252303] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 10:07:18.252303] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741921628.jpg
+[2025-03-14 10:07:18.252303] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 10:07:18.268766] ⚠️ Cảnh báo: Ảnh quá tối (độ sáng: 4.366009114583333), bỏ qua!
+[2025-03-14 10:07:47.211397] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 10:07:47.212408] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741921657.jpg
+[2025-03-14 10:07:47.212408] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 10:07:54.760852] ❌ Không khớp với profile! Độ tin cậy: 0.5598
+[2025-03-14 10:09:52.935877] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 10:09:52.935877] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741921782.jpg
+[2025-03-14 10:09:52.935877] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 10:09:59.929548] ✅ Nhận diện thành công! Độ tin cậy: 0.1447
+[2025-03-14 10:45:26.769017] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 10:45:26.769017] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741923896.jpg
+[2025-03-14 10:45:26.769017] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 10:45:34.764358] ✅ Nhận diện thành công! Độ tin cậy: 0.1641
+[2025-03-14 10:46:04.087971] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 10:46:04.087971] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741923953.jpg
+[2025-03-14 10:46:04.087971] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 10:46:04.104574] ⚠️ Cảnh báo: Ảnh quá tối (độ sáng: 6.7567350260416665), bỏ qua!
+[2025-03-14 10:46:24.223979] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 10:46:24.223979] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741923974.jpg
+[2025-03-14 10:46:24.226026] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 10:46:32.007082] ✅ Nhận diện thành công! Độ tin cậy: 0.2041
+[2025-03-14 10:46:43.028789] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 10:46:43.029792] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741923992.jpg
+[2025-03-14 10:46:43.029792] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 10:46:50.700643] ✅ Nhận diện thành công! Độ tin cậy: 0.2016
+[2025-03-14 10:47:03.037538] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 10:47:03.037538] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741924011.jpg
+[2025-03-14 10:47:03.037538] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 10:47:11.441004] ✅ Nhận diện thành công! Độ tin cậy: 0.2153
+[2025-03-14 10:49:05.906859] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 10:49:05.906859] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741924135.jpg
+[2025-03-14 10:49:05.906859] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 10:49:07.455525] ⚠️ Cảnh báo: Ảnh profile không có khuôn mặt!
+[2025-03-14 10:50:45.483061] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 10:50:45.483061] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741924234.jpg
+[2025-03-14 10:50:45.483061] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 10:50:47.126347] ⚠️ Cảnh báo: Ảnh profile không có khuôn mặt!
+[2025-03-14 10:51:20.777042] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 10:51:20.777042] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741924270.jpg
+[2025-03-14 10:51:20.777042] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 10:51:22.328207] ⚠️ Cảnh báo: Ảnh profile không có khuôn mặt!
+[2025-03-14 10:51:33.931361] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 10:51:33.931361] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741924283.jpg
+[2025-03-14 10:51:33.931361] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 10:51:35.492291] ⚠️ Cảnh báo: Ảnh profile không có khuôn mặt!
+[2025-03-14 10:53:37.471765] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 10:53:37.471765] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741924407.jpg
+[2025-03-14 10:53:37.471765] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 10:53:45.107600] ❌ Không khớp với profile! Độ tin cậy: 0.5609964704352002
+[2025-03-14 10:54:59.512265] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 10:54:59.512265] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741924488.jpg
+[2025-03-14 10:54:59.512265] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 10:55:07.763490] ✅ Nhận diện thành công! Độ tin cậy: 0.40020113538705426
+[2025-03-14 10:58:09.320725] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 10:58:09.322199] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741924677.jpg
+[2025-03-14 10:58:09.322199] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 10:58:17.772424] ✅ Nhận diện thành công! Độ tin cậy: 0.38431040071859257
+[2025-03-14 10:58:44.513682] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 10:58:44.514691] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741924714.jpg
+[2025-03-14 10:58:44.515693] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 10:58:46.092752] ⚠️ Cảnh báo: Ảnh không có khuôn mặt!
+[2025-03-14 10:59:04.160494] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 10:59:04.161486] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741924732.jpg
+[2025-03-14 10:59:04.162487] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 10:59:05.736217] ⚠️ Cảnh báo: Ảnh không có khuôn mặt!
+[2025-03-14 10:59:39.637966] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 10:59:39.637966] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741924769.jpg
+[2025-03-14 10:59:39.637966] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 10:59:47.619834] ✅ Nhận diện thành công! Độ tin cậy: 0.30219115047884504
+[2025-03-14 11:01:22.359026] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:01:22.360023] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741924870.jpg
+[2025-03-14 11:01:22.361025] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:01:30.041701] ❌ Không khớp với profile! Độ tin cậy: 0.6093459863817735
+[2025-03-14 11:01:48.219801] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:01:48.219801] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741924897.jpg
+[2025-03-14 11:01:48.219801] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:01:55.290068] ✅ Nhận diện thành công! Độ tin cậy: 0.2952258562754896
+[2025-03-14 11:04:19.510362] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:04:19.512875] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741925049.jpg
+[2025-03-14 11:04:19.512875] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:04:27.229230] ✅ Nhận diện thành công! Độ tin cậy: 0.28738043683162906
+[2025-03-14 11:06:04.985610] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:06:04.985610] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741925154.jpg
+[2025-03-14 11:06:04.985610] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:06:13.162167] ✅ Nhận diện thành công! Độ tin cậy: 0.3661485796395384
+[2025-03-14 11:07:17.603758] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:07:17.603758] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741925227.jpg
+[2025-03-14 11:07:17.603758] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:07:25.145526] ✅ Nhận diện thành công! Độ tin cậy: 0.22977765359618008
+[2025-03-14 11:07:49.445225] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:07:49.446225] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741925259.jpg
+[2025-03-14 11:07:49.447230] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:07:57.488303] ✅ Nhận diện thành công! Độ tin cậy: 0.33759431436787446
+[2025-03-14 11:08:23.527342] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:08:23.529692] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741925293.jpg
+[2025-03-14 11:08:23.529692] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:08:24.988919] ⚠️ Cảnh báo: Ảnh không có khuôn mặt!
+[2025-03-14 11:10:09.272584] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:10:09.272584] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741925399.jpg
+[2025-03-14 11:10:09.288213] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:10:16.957226] ❌ Không khớp với profile! Độ tin cậy: 0.5438552762362547
+[2025-03-14 11:10:38.487019] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:10:38.487019] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741925427.jpg
+[2025-03-14 11:10:38.487019] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:10:45.684781] ✅ Nhận diện thành công! Độ tin cậy: 0.3983512870863076
+[2025-03-14 11:11:30.093698] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:11:30.093698] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741925479.jpg
+[2025-03-14 11:11:30.093698] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:11:39.314539] ✅ Nhận diện thành công! Độ tin cậy: 0.373522523873524
+[2025-03-14 11:14:26.620343] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:14:26.620343] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741925656.jpg
+[2025-03-14 11:14:26.620343] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:14:34.221352] ❌ Không khớp với profile! Độ tin cậy: 0.4505283392197684
+[2025-03-14 11:14:54.253636] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:14:54.253636] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741925683.jpg
+[2025-03-14 11:14:54.253636] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:15:02.973364] ✅ Nhận diện thành công! Độ tin cậy: 0.26901917328985414
+[2025-03-14 11:16:00.783492] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:16:00.783492] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741925750.jpg
+[2025-03-14 11:16:00.783492] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:16:08.207118] ✅ Nhận diện thành công! Độ tin cậy: 0.2953274873824898
+[2025-03-14 11:16:26.751936] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:16:26.760703] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741925777.jpg
+[2025-03-14 11:16:26.762722] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:16:33.744291] ❌ Không khớp với profile! Độ tin cậy: 0.4399542001328325
+[2025-03-14 11:16:50.567105] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:16:50.567105] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741925800.jpg
+[2025-03-14 11:16:50.582743] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:16:58.024411] ❌ Không khớp với profile! Độ tin cậy: 0.5686175809870986
+[2025-03-14 11:17:18.899810] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:17:18.899810] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741925829.jpg
+[2025-03-14 11:17:18.899810] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:17:26.371938] ✅ Nhận diện thành công! Độ tin cậy: 0.28715703582726637
+[2025-03-14 11:17:45.202571] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:17:45.202571] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741925855.jpg
+[2025-03-14 11:17:45.202571] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:17:52.270195] ❌ Không khớp với profile! Độ tin cậy: 0.6753533650495419
+[2025-03-14 11:18:12.039660] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:18:12.040670] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741925881.jpg
+[2025-03-14 11:18:12.040670] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:18:19.671237] ❌ Không khớp với profile! Độ tin cậy: 0.5371896712889142
+[2025-03-14 11:18:36.449726] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:18:36.449726] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741925905.jpg
+[2025-03-14 11:18:36.449726] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:18:43.908399] ❌ Không khớp với profile! Độ tin cậy: 0.7403358250335836
+[2025-03-14 11:19:03.295062] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:19:03.295062] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741925933.jpg
+[2025-03-14 11:19:03.295062] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:19:10.773224] ❌ Không khớp với profile! Độ tin cậy: 0.6064088067898115
+[2025-03-14 11:19:28.490161] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:19:28.490161] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741925958.jpg
+[2025-03-14 11:19:28.490161] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:19:35.924097] ✅ Nhận diện thành công! Độ tin cậy: 0.1392955345221365
+[2025-03-14 11:19:53.397033] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:19:53.397033] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741925983.jpg
+[2025-03-14 11:19:53.397033] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:20:00.971210] ❌ Không khớp với profile! Độ tin cậy: 0.6887993508789539
+[2025-03-14 11:22:23.993116] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:22:23.995117] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741926132.jpg
+[2025-03-14 11:22:23.995628] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:22:31.565636] ❌ Không khớp với profile! Độ tin cậy: 0.6293788209125097
+[2025-03-14 11:22:57.431095] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:22:57.431095] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741926167.jpg
+[2025-03-14 11:22:57.433712] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:23:05.870801] ❌ Không khớp với profile! Độ tin cậy: 0.49322214588820557
+[2025-03-14 11:23:25.282603] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:23:25.282603] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741926195.jpg
+[2025-03-14 11:23:25.282603] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:23:26.785854] ⚠️ Cảnh báo: Ảnh không có khuôn mặt!
+[2025-03-14 11:23:44.677709] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:23:44.677709] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741926213.jpg
+[2025-03-14 11:23:44.677709] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:23:46.219963] ⚠️ Cảnh báo: Ảnh không có khuôn mặt!
+[2025-03-14 11:24:07.218512] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:24:07.219510] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741926237.jpg
+[2025-03-14 11:24:07.219510] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:24:14.818424] ✅ Nhận diện thành công! Độ tin cậy: 0.2738957535468729
+[2025-03-14 11:29:16.903095] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:29:16.903095] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741926544.jpg
+[2025-03-14 11:29:16.903095] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:29:24.390819] ❌ Không khớp với profile! Độ tin cậy: 0.5436149316288863
+[2025-03-14 11:34:40.567417] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:34:40.567417] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741926870.jpg
+[2025-03-14 11:34:40.567417] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:34:48.246802] ❌ Không khớp với profile! Độ tin cậy: 0.5192053148546865
+[2025-03-14 11:38:13.255684] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:38:13.255684] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741927082.jpg
+[2025-03-14 11:38:13.255684] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:38:14.727434] ⚠️ Cảnh báo: Ảnh không có khuôn mặt!
+[2025-03-14 11:40:18.288584] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:40:18.288584] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741927208.jpg
+[2025-03-14 11:40:18.288584] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:40:19.754351] ⚠️ Cảnh báo: Ảnh không có khuôn mặt!
+[2025-03-14 11:40:58.219660] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:40:58.219660] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741927248.jpg
+[2025-03-14 11:40:58.219660] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:41:05.581069] ❌ Không khớp với profile! Độ tin cậy: 0.6971271033291212
+[2025-03-14 11:57:16.633586] ❌ Lỗi: Thiếu tham số đầu vào!
+[2025-03-14 11:57:32.441978] ❌ Lỗi: Thiếu tham số đầu vào!
+[2025-03-14 11:57:49.422868] ❌ Lỗi: Thiếu tham số đầu vào!
+[2025-03-14 11:58:08.319439] ❌ Lỗi: Thiếu tham số đầu vào!
+[2025-03-14 11:58:24.951788] ❌ Lỗi: Thiếu tham số đầu vào!
+[2025-03-14 11:58:57.856610] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:58:57.856610] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741928327.jpg
+[2025-03-14 11:58:57.856610] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:59:06.891232] ❌ Không khớp với profile! Độ tin cậy: 0.5537777756535718
+[2025-03-14 11:59:26.043577] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:59:26.059494] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741928354.jpg
+[2025-03-14 11:59:26.060278] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 11:59:27.797894] ⚠️ Cảnh báo: Ảnh không có khuôn mặt!
+[2025-03-14 11:59:59.861800] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-14 11:59:59.861800] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741928389.jpg
+[2025-03-14 11:59:59.861800] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-14 12:00:09.785054] ✅ Nhận diện thành công! Độ tin cậy: 0.17175414075149376
+[2025-03-15 07:37:04.460873] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 07:37:04.476497] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741998956.jpg
+[2025-03-15 07:37:04.476497] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 07:37:26.795337] ✅ Nhận diện thành công! Độ tin cậy: 0.27091168483978645
+[2025-03-15 07:38:04.218505] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 07:38:04.218505] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741999058.jpg
+[2025-03-15 07:38:04.218505] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 07:38:06.232900] ⚠️ Cảnh báo: Ảnh không có khuôn mặt!
+[2025-03-15 07:38:33.586205] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 07:38:33.586205] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741999087.jpg
+[2025-03-15 07:38:33.589738] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 07:38:35.815362] ⚠️ Cảnh báo: Ảnh không có khuôn mặt!
+[2025-03-15 07:39:16.266267] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 07:39:16.266267] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741999129.jpg
+[2025-03-15 07:39:16.281863] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 07:39:32.250415] ✅ Nhận diện thành công! Độ tin cậy: 0.2846061444475315
+[2025-03-15 07:40:26.190832] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 07:40:26.194371] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741999203.jpg
+[2025-03-15 07:40:26.194371] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 07:40:41.363985] ✅ Nhận diện thành công! Độ tin cậy: 0.3837472410673901
+[2025-03-15 07:41:16.398483] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 07:41:16.398483] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741999253.jpg
+[2025-03-15 07:41:16.398483] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 07:41:31.492761] ✅ Nhận diện thành công! Độ tin cậy: 0.360874218327497
+[2025-03-15 07:44:43.735913] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 07:44:43.735913] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741999456.jpg
+[2025-03-15 07:44:43.735913] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 07:44:58.605749] ✅ Nhận diện thành công! Độ tin cậy: 0.26072646571322733
+[2025-03-15 07:46:52.217468] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 07:46:52.228991] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741999591.jpg
+[2025-03-15 07:46:52.228991] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 07:47:05.088265] ✅ Nhận diện thành công! Độ tin cậy: 0.26060134946962965
+[2025-03-15 07:49:15.378412] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 07:49:15.378412] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741999734.jpg
+[2025-03-15 07:49:15.378412] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 07:49:27.996807] ❌ Không khớp với profile! Độ tin cậy: 0.2710115509046199
+[2025-03-15 07:52:14.235294] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 07:52:14.235294] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1741999884.jpg
+[2025-03-15 07:52:14.235294] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 07:52:28.882302] ✅ Nhận diện thành công! Độ tin cậy: 0.08404933021907135
+[2025-03-15 07:59:39.545833] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 07:59:39.545833] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1742000355.jpg
+[2025-03-15 07:59:39.557352] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 07:59:57.312041] ✅ Nhận diện thành công! Độ tin cậy: 0.09831716890466158
+[2025-03-15 08:01:14.019827] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 08:01:14.019827] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1742000451.jpg
+[2025-03-15 08:01:14.019827] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 08:01:32.100047] ✅ Nhận diện thành công! Độ tin cậy: 0.06276069487431257
+[2025-03-15 08:02:10.348560] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 08:02:10.348560] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1742000509.jpg
+[2025-03-15 08:02:10.348560] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 08:02:27.606635] ✅ Nhận diện thành công! Độ tin cậy: 0.11762955988256651
+[2025-03-15 08:03:22.876917] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 08:03:22.876917] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1742000576.jpg
+[2025-03-15 08:03:22.876917] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 08:03:24.941656] ⚠️ Cảnh báo: Ảnh không có khuôn mặt!
+[2025-03-15 08:07:23.538129] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 08:07:23.539837] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1742000789.jpg
+[2025-03-15 08:07:23.539837] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 08:16:02.101894] ❌ Lỗi khi so sánh khuôn mặt: ('Connection broken: IncompleteRead(290202176 bytes read, 246947584 more expected)', IncompleteRead(290202176 bytes read, 246947584 more expected))
+[2025-03-15 08:17:00.111095] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 08:17:00.111095] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1742001398.jpg
+[2025-03-15 08:17:00.111095] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 08:22:02.680082] ❌ Lỗi khi so sánh khuôn mặt: Unable to allocate 392. MiB for an array with shape (7, 7, 512, 4096) and data type float32
+[2025-03-15 08:28:43.991483] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 08:28:43.991483] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1742002101.jpg
+[2025-03-15 08:28:43.991483] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 08:28:54.501990] ❌ Lỗi khi so sánh khuôn mặt: Unable to allocate 392. MiB for an array with shape (7, 7, 512, 4096) and data type float32
+[2025-03-15 08:31:03.282371] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 08:31:03.282371] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1742002241.jpg
+[2025-03-15 08:31:03.282371] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 08:31:13.348631] ❌ Lỗi khi so sánh khuôn mặt: Unable to allocate 392. MiB for an array with shape (7, 7, 512, 4096) and data type float32
+[2025-03-15 08:33:06.929939] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 08:33:06.929939] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1742002362.jpg
+[2025-03-15 08:33:06.929939] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 08:33:09.270433] ❌ Lỗi khi so sánh khuôn mặt: Face could not be detected in C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1742002362.jpg.Please confirm that the picture is a face photo or consider to set enforce_detection param to False.
+[2025-03-15 08:48:34.516583] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 08:48:34.516583] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1742003294.jpg
+[2025-03-15 08:48:34.516583] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 08:48:40.784921] ❌ Lỗi khi so sánh khuôn mặt: Unable to allocate 392. MiB for an array with shape (7, 7, 512, 4096) and data type float32
+[2025-03-15 08:50:20.800317] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 08:50:20.800317] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1742003395.jpg
+[2025-03-15 08:50:20.800317] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 08:50:28.257546] ❌ Lỗi khi so sánh khuôn mặt: Unable to allocate 64.0 MiB for an array with shape (1, 1, 4096, 4096) and data type float32
+[2025-03-15 08:53:47.182602] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 08:53:47.182602] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1742003605.jpg
+[2025-03-15 08:53:47.182602] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 08:54:01.160950] ✅ Nhận diện thành công! Độ tin cậy: 0.153555361209601
+[2025-03-15 09:59:04.229280] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 09:59:04.229280] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1742007520.jpg
+[2025-03-15 09:59:04.229280] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 09:59:12.353308] ✅ Nhận diện thành công! Độ tin cậy: 0.010599481823495793
+[2025-03-15 21:17:33.264854] 🚀 Bắt đầu nhận diện khuôn mặt
+[2025-03-15 21:17:33.267856] 📂 Ảnh đầu vào: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/checkin_1742048196.jpg
+[2025-03-15 21:17:33.268862] 📂 Ảnh profile: C:\xampp\htdocs\HTTTDN/admin/uploads/employees/7/profile.jpg
+[2025-03-15 21:17:36.070569] ⚠️ Ảnh không có khuôn mặt hợp lệ!

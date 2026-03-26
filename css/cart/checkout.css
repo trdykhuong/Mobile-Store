@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    position: relative;
+    top: 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 130px;
+    background-color: #EAEAEA;
+    border-bottom: 1px solid #919191;
+}
+
+.container { 
+    width: 1290px;
+}
+
+/* Thanh điều hướng */
+.nav-checkout-detail {
+    position: relative;
+    height: 40px;
+    width: 1290px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-checkout-detail::before {
+    content: "";
+    position: absolute;
+    left: -112px;
+    width: 1513px;
+    height: 40px;
+    background: white;
+    border-bottom: 1px solid #bbbbbb;
+    z-index: 1;
+}
+
+.nav-checkout-detail .checkout-name {
+    position: relative;
+    z-index: 2;
+    font-size: 15px;
+}
+
+.checkout-name a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.checkout-name span {
+    cursor: pointer;
+}
+
+.checkout-name span:hover {
+    color: #f83434;
+}
+
+/* Thanh quá trình đặt hàng */
+.cart-process {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.cart-process-line-1,
+.cart-process-line-2 {
+    width: 150px; 
+    border-top: 3px dashed #eb1616;
+}
+
+.cart-process-line-3 {
+    width: 150px; 
+    border-top: 3px dashed #f3b8b8;
+}
+
+.cart-process-detail-1 i,
+.cart-process-detail-2 i,
+.cart-process-detail-3 i,
+.cart-process-detail-4 i {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.cart-process-detail-1,
+.cart-process-detail-2,
+.cart-process-detail-3 {
+    color: #eb1616;
+}
+
+.cart-process-detail-4 {
+    color: #f3b8b8;
+} 
+
+.cart-process-detail-name {
+    width: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cart-process-detail-name i {
+    font-size: 16px;
+}
+
+.cart-process-detail-name span {
+    margin-top: 10px;
+}
+
+/* Nội dung */
+.checkout-content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-info {
+    width: 900px;
+}
+
+.checkout-detail-info {
+    margin: 30px 0px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-info {
+    padding: 15px;
+    font-size: 17px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.order-info p {
+    line-height: 1.6;
+}
+
+h3 {
+    padding: 15px;
+}
+
+.order-details {
+    width: calc(100% - 30px);
+    padding: 0px 15px;
+    margin: 0px 15px;
+    justify-content: center;
+    border-collapse: collapse;
+}
+
+thead tr{
+    background-color: #e0e0e0;
+    height: 50px;
+}
+
+tbody {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+tbody tr {
+    height: 100px;
+    text-align: center;
+}
+
+tfoot tr {
+    height: 30px;
+}
+
+.price-tfoot {
+    text-align: right;
+}
+
+.checkout-input {
+    padding: 10px 15px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.checkout-input p {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.choice-input{
+    margin-top: 10px;
+}
+
+.choice-input input {
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.checkout-btn {
+    padding: 10px 15px;
+    gap: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.checkout-btn button {
+    padding: 10px 17px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease;
+}
+
+.checkout-btn button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-return-page {
+    background-color: white;
+    border: 1px solid #bbbbbb;
+}
+
+.btn-pay {
+    background-color: #eb1616;
+    border: #eb1616;
+    color: white;
+}

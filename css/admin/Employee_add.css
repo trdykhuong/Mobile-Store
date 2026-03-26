@@ -1,0 +1,151 @@
+.head-add {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 19px;
+}
+
+.head-add a {
+    text-decoration: none;
+    color: inherit;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.add-info {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.add-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.add-img img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #d4d4d4;
+}
+
+.add-img input {
+    display: none;
+}
+
+.add-img button {
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.add-img button:hover {
+    background-color: #0ddc14;
+    color: white;
+}
+
+.add-info-detail {
+    display: flex;
+    width: calc(100% - 320px);
+    gap: 30px;
+}
+
+.add-info-detail-content {
+    width: 50%;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 15px;
+}
+
+.add-info span {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.item-info-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-info-title label {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.item-info-title input,
+.item-info-title select {
+    width: 60%;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+.item-info-title input:focus,
+.item-info-title select:focus {
+    outline: none;
+    border: 1px solid #0ddc14;
+}
+
+.add-line {
+    width: 1px;
+    background-color: #d4d4d4;
+}
+
+.radio-group {
+    display: flex;
+    width: 60%;
+    gap: 20px;
+}
+
+.radio-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.radio-item input {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+    display: block;
+    font-style: italic;
+}
+
+.add-button {
+    display: flex;
+    justify-content: right;
+    margin-top: 15px;
+}
+
+.add-button input {
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #aee2b0;
+}
+
+.add-button input:hover {
+    background-color: #0ddc14;
+    color: white;
+}

@@ -1,0 +1,103 @@
+.boxReview{ 
+    border: 1px solid #bbb;
+    width: 940px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.title-evaluation h3 {
+    font-size: 22px;
+}
+
+.evaluation-table {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #bbb;
+}
+
+.evaluation-quantity {
+    display: flex;
+    align-items: center;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+}
+
+.review-score {
+    width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.review-score .score {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.review-score p a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.review-score p a span {
+    color: #eb1616;
+}
+
+.rating-bars {
+    width: 500px;
+    border-left: 1px solid #bbb;
+    padding: 0px 20px;
+}
+
+.rating-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.rating-bar span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.rating-bar span i {
+    color: #F59E0B;
+}
+.rating-bar .bar {
+    width: 60%;
+    height: 8px;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.rating-bar .filled-bar {
+    height: 100%;
+    background: #d7000e;
+    border-radius: 5px;
+}
+
+.stars {
+    display: flex;
+    margin: 5px 0;
+}
+
+.star {
+    font-size: 22px;
+    color: #ccc;
+    margin: 0 2px;
+}
+
+.star.filled {
+    color: #F59E0B;
+}

@@ -1,0 +1,624 @@
+[2025-03-17 15:57:48] Yêu cầu từ API - Hành động: checkin, ID nhân viên: 7, Giờ: 15:57:48
+[2025-03-17 15:57:48] ✅ Nhân viên ID: 7 - Checkin vào lúc 15:57:48
+[2025-03-17 16:12:24] Yêu cầu từ API - Hành động: checkin, ID nhân viên: 7, Giờ: 16:12:24
+[2025-03-17 16:12:24] ✅ Nhân viên ID: 7 - Checkin vào lúc 16:12:24
+[2025-03-17 16:15:13] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 16:15:13, Giờ quy định: 16:14:10
+[2025-03-17 16:15:13] 🔴 Auto checkout: Nhân viên ID: 7 lúc 16:14:10
+[2025-03-17 16:15:13] ✅ Kết thúc Auto Checkout
+[2025-03-17 16:25:26] Yêu cầu từ API - Hành động: checkin, ID nhân viên: 7, Giờ: 16:25:26
+[2025-03-17 16:25:26] ✅ Nhân viên ID: 7 - Checkin vào lúc 16:25:26
+[2025-03-17 16:26:27] Yêu cầu từ API - Hành động: checkin, ID nhân viên: 7, Giờ: 16:26:27
+[2025-03-17 16:26:27] ✅ Nhân viên ID: 7 - Checkin vào lúc 16:26:27
+[2025-03-17 16:30:23] Yêu cầu từ API - Hành động: checkin, ID nhân viên: 7, Giờ: 16:30:23
+[2025-03-17 16:30:23] ✅ Nhân viên ID: 7 - Checkin vào lúc 16:30:23
+[2025-03-17 16:35:16] Yêu cầu từ API - Hành động: checkin, ID nhân viên: 7, Giờ: 16:35:16
+[2025-03-17 16:35:16] ✅ Nhân viên ID: 7 - Checkin vào lúc 16:35:16
+[2025-03-17 16:36:36] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 16:36:36, Giờ quy định: 16:36:10
+[2025-03-17 16:36:36] 🔴 Auto checkout: Nhân viên ID: 7 lúc 16:36:10
+[2025-03-17 16:36:36] ✅ Kết thúc Auto Checkout
+[2025-03-17 16:37:25] Yêu cầu từ API - Hành động: , ID nhân viên: 0, Giờ: 16:37:25
+[2025-03-17 16:37:34] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 16:37:34, Giờ quy định: 16:36:10
+[2025-03-17 16:37:34] ✅ Kết thúc Auto Checkout
+[2025-03-17 16:39:02] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 16:39:02, Giờ quy định: 16:36:10
+[2025-03-17 16:39:02] ✅ Kết thúc Auto Checkout
+[2025-03-17 16:39:04] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 16:39:04, Giờ quy định: 16:36:10
+[2025-03-17 16:39:04] ✅ Kết thúc Auto Checkout
+[2025-03-17 16:39:33] Yêu cầu từ API - Hành động: , ID nhân viên: 0, Giờ: 16:39:33
+[2025-03-17 16:39:39] Yêu cầu từ API - Hành động: checkin, ID nhân viên: 7, Giờ: 16:39:39
+[2025-03-17 16:39:39] ✅ Nhân viên ID: 7 - Checkin vào lúc 16:39:39
+[2025-03-17 10:55:08] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-17 10:55:08] 🟢 Đã kết nối thành công với database.
+[2025-03-17 16:55:08] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 7, Giờ: 16:55:08
+[2025-03-17 16:55:08] ✅ Nhân viên ID: 7 - Checkin vào lúc 16:55:08
+[2025-03-17 16:55:08] 🟢 Đã đóng kết nối database.
+[2025-03-17 17:01:46] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-17 17:01:46] 🟢 Đã kết nối thành công với database.
+[2025-03-17 17:01:46] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 7, Giờ: 17:01:46
+[2025-03-17 17:01:46] ✅ Nhân viên ID: 7 - Checkin vào lúc 17:01:46
+[2025-03-17 17:01:46] 🟢 Đã đóng kết nối database.
+[2025-03-17 17:11:46] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-17 17:11:46] 🟢 Đã kết nối thành công với database.
+[2025-03-17 17:11:46] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 7, Giờ: 17:11:46
+[2025-03-17 17:11:46] ✅ Nhân viên ID: 7 - Checkin vào lúc 17:11:46
+[2025-03-17 17:11:46] 🟢 Đã đóng kết nối database.
+[2025-03-17 17:13:44] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-17 17:13:44] 🟢 Đã kết nối thành công với database.
+[2025-03-17 17:13:44] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-17 17:13:44] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-17 17:13:44] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 17:13:44, Giờ quy định: 17:18:10
+[2025-03-17 17:13:44] 🟢 Chưa đến giờ auto checkout.
+[2025-03-17 17:13:44] ✅ Kết thúc Auto Checkout
+[2025-03-17 17:13:44] 🟢 Đã đóng kết nối database.
+[2025-03-17 17:23:09] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-17 17:23:09] 🟢 Đã kết nối thành công với database.
+[2025-03-17 17:23:09] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-17 17:23:09] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-17 17:23:09] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 17:23:09, Giờ quy định: 17:18:10
+[2025-03-17 17:23:09] 🔴 Auto checkout: Nhân viên ID: 7 lúc 17:18:10
+[2025-03-17 17:23:09] ✅ Kết thúc Auto Checkout
+[2025-03-17 17:23:09] 🟢 Đã đóng kết nối database.
+[2025-03-17 17:23:48] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-17 17:23:48] 🟢 Đã kết nối thành công với database.
+[2025-03-17 17:23:48] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-17 17:23:48] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-17 17:23:48] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 17:23:48, Giờ quy định: 17:18:10
+[2025-03-17 17:23:48] 🟢 Không có nhân viên nào cần auto checkout.
+[2025-03-17 17:23:48] ✅ Kết thúc Auto Checkout
+[2025-03-17 17:23:48] 🟢 Đã đóng kết nối database.
+[2025-03-17 17:24:49] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-17 17:24:49] 🟢 Đã kết nối thành công với database.
+[2025-03-17 17:24:49] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-17 17:24:49] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-17 17:24:49] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 17:24:49, Giờ quy định: 17:18:10
+[2025-03-17 17:24:49] 🟢 Không có nhân viên nào cần auto checkout.
+[2025-03-17 17:24:49] ✅ Kết thúc Auto Checkout
+[2025-03-17 17:24:49] 🟢 Đã đóng kết nối database.
+[2025-03-17 17:25:48] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-17 17:25:48] 🟢 Đã kết nối thành công với database.
+[2025-03-17 17:25:48] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-17 17:25:48] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-17 17:25:48] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 17:25:48, Giờ quy định: 17:18:10
+[2025-03-17 17:25:48] 🟢 Không có nhân viên nào cần auto checkout.
+[2025-03-17 17:25:48] ✅ Kết thúc Auto Checkout
+[2025-03-17 17:25:48] 🟢 Đã đóng kết nối database.
+[2025-03-17 17:26:19] 🟢 Đã kết nối thành công với database.
+[2025-03-17 17:26:19] 🚀 Script chạy nền bắt đầu...
+[2025-03-17 17:26:19] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 17:26:19, Giờ quy định: 17:27:10
+[2025-03-17 17:26:19] 🟢 Chưa đến giờ auto checkout.
+[2025-03-17 17:26:48] 🟢 Đã kết nối thành công với database.
+[2025-03-17 17:26:48] 🚀 Script chạy nền bắt đầu...
+[2025-03-17 17:26:48] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 17:26:48, Giờ quy định: 17:27:10
+[2025-03-17 17:26:48] 🟢 Chưa đến giờ auto checkout.
+[2025-03-17 17:26:49] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 17:26:49, Giờ quy định: 17:27:10
+[2025-03-17 17:26:49] 🟢 Chưa đến giờ auto checkout.
+[2025-03-17 17:27:18] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 17:27:18, Giờ quy định: 17:27:10
+[2025-03-17 17:27:18] 🟢 Không có nhân viên nào cần auto checkout.
+[2025-03-17 17:27:18] ✅ Hoàn thành Auto Checkout - Chờ đến ngày tiếp theo...
+[2025-03-17 17:27:19] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 17:27:19, Giờ quy định: 17:27:10
+[2025-03-17 17:27:19] 🟢 Không có nhân viên nào cần auto checkout.
+[2025-03-17 17:27:19] ✅ Hoàn thành Auto Checkout - Chờ đến ngày tiếp theo...
+[2025-03-17 17:29:33] 🟢 Đã kết nối thành công với database.
+[2025-03-17 17:29:33] 🟢 API yêu cầu - Hành động: checkin, ID: 7, Giờ: 17:29:33
+[2025-03-17 17:29:33] ✅ Nhân viên ID: 7 - Checkin vào lúc 17:29:33
+[2025-03-17 17:29:33] 🟢 Đã đóng kết nối database.
+[2025-03-17 17:38:11] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-17 17:38:11] 🟢 Đã kết nối thành công với database.
+[2025-03-17 17:38:11] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 7, Giờ: 17:38:11
+[2025-03-17 17:38:11] ✅ Nhân viên ID: 7 - Checkin vào lúc 17:38:11
+[2025-03-17 17:38:11] 🟢 Đã đóng kết nối database.
+[2025-03-17 17:45:08] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-17 17:45:08] 🟢 Đã kết nối thành công với database.
+[2025-03-17 17:45:08] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 7, Giờ: 17:45:08
+[2025-03-17 17:45:08] ✅ Nhân viên ID: 7 - Checkin vào lúc 17:45:08
+[2025-03-17 17:45:08] 🟢 Đã đóng kết nối database.
+[2025-03-18 08:00:14] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-18 08:00:14] 🟢 Đã kết nối thành công với database.
+[2025-03-18 08:00:14] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 7, Giờ: 08:00:14
+[2025-03-18 08:00:14] ✅ Nhân viên ID: 7 - Checkin vào lúc 08:00:14
+[2025-03-18 08:00:14] 🟢 Đã đóng kết nối database.
+[2025-03-18 08:00:21] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 08:00:21] 🟢 Đã kết nối thành công với database.
+[2025-03-18 08:00:21] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 08:00:21] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 08:00:21] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 08:00:21, Giờ quy định: 8:01:10
+[2025-03-18 08:00:21] 🟢 Chưa đến giờ auto checkout.
+[2025-03-18 08:00:21] ✅ Kết thúc Auto Checkout
+[2025-03-18 08:00:21] 🟢 Đã đóng kết nối database.
+[2025-03-18 08:07:26] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 08:07:26] 🟢 Đã kết nối thành công với database.
+[2025-03-18 08:07:26] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 08:07:26] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 08:07:26] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 08:07:26, Giờ quy định: 8:01:10
+[2025-03-18 08:07:26] 🟢 Chưa đến giờ auto checkout.
+[2025-03-18 08:07:26] ✅ Kết thúc Auto Checkout
+[2025-03-18 08:07:26] 🟢 Đã đóng kết nối database.
+[2025-03-18 08:12:48] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-18 08:12:48] 🟢 Đã kết nối thành công với database.
+[2025-03-18 08:12:48] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 7, Giờ: 08:12:48
+[2025-03-18 08:12:48] ✅ Nhân viên ID: 7 - Checkin vào lúc 08:12:48
+[2025-03-18 08:12:48] 🟢 Đã đóng kết nối database.
+[2025-03-18 08:13:11] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 08:13:11] 🟢 Đã kết nối thành công với database.
+[2025-03-18 08:13:11] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 08:13:11] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 08:13:11] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 08:13:11, Giờ quy định: 08:13:10
+[2025-03-18 08:13:11] 🔴 Auto checkout: Nhân viên ID: 7 lúc 08:13:10
+[2025-03-18 08:13:11] ✅ Kết thúc Auto Checkout
+[2025-03-18 08:13:11] 🟢 Đã đóng kết nối database.
+[2025-03-18 08:15:39] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-18 08:15:39] 🟢 Đã kết nối thành công với database.
+[2025-03-18 08:15:39] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 7, Giờ: 08:15:39
+[2025-03-18 08:15:39] ✅ Nhân viên ID: 7 - Checkin vào lúc 08:15:39
+[2025-03-18 08:15:39] 🟢 Đã đóng kết nối database.
+[2025-03-18 08:15:55] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 08:15:55] 🟢 Đã kết nối thành công với database.
+[2025-03-18 08:15:55] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 08:15:55] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 08:15:55] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 08:15:55, Giờ quy định: 08:16:10
+[2025-03-18 08:15:55] 🟢 Chưa đến giờ auto checkout.
+[2025-03-18 08:15:55] ✅ Kết thúc Auto Checkout
+[2025-03-18 08:15:55] 🟢 Đã đóng kết nối database.
+[2025-03-18 08:17:10] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 08:17:10] 🟢 Đã kết nối thành công với database.
+[2025-03-18 08:17:10] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 08:17:10] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 08:17:10] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 08:17:10, Giờ quy định: 08:16:10
+[2025-03-18 08:17:10] 🔴 Auto checkout: Nhân viên ID: 7 lúc 08:16:10
+[2025-03-18 08:17:10] ✅ Kết thúc Auto Checkout
+[2025-03-18 08:17:10] 🟢 Đã đóng kết nối database.
+[2025-03-18 09:08:57] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-18 09:08:57] 🟢 Đã kết nối thành công với database.
+[2025-03-18 09:08:57] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 7, Giờ: 09:08:57
+[2025-03-18 09:08:57] ✅ Nhân viên ID: 7 - Checkin vào lúc 09:08:57
+[2025-03-18 09:08:57] 🟢 Đã đóng kết nối database.
+[2025-03-18 09:11:03] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 09:11:03] 🟢 Đã kết nối thành công với database.
+[2025-03-18 09:11:03] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 09:11:03] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 09:11:03] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 09:11:03, Giờ quy định: 09:10:10
+[2025-03-18 09:11:03] 🔴 Auto checkout: Nhân viên ID: 7 lúc 09:10:10
+[2025-03-18 09:11:03] ✅ Kết thúc Auto Checkout
+[2025-03-18 09:11:03] 🟢 Đã đóng kết nối database.
+[2025-03-18 09:11:39] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 09:11:39] 🟢 Đã kết nối thành công với database.
+[2025-03-18 09:11:39] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 09:11:39] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 09:11:39] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 09:11:39, Giờ quy định: 09:10:10
+[2025-03-18 09:11:39] 🟢 Không có nhân viên nào cần auto checkout.
+[2025-03-18 09:11:39] ✅ Kết thúc Auto Checkout
+[2025-03-18 09:11:39] 🟢 Đã đóng kết nối database.
+[2025-03-18 09:13:41] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-18 09:13:41] 🟢 Đã kết nối thành công với database.
+[2025-03-18 09:13:41] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 7, Giờ: 09:13:41
+[2025-03-18 09:13:41] ✅ Nhân viên ID: 7 - Checkin vào lúc 09:13:41
+[2025-03-18 09:13:41] 🟢 Đã đóng kết nối database.
+[2025-03-18 09:13:46] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 09:13:46] 🟢 Đã kết nối thành công với database.
+[2025-03-18 09:13:46] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 09:13:46] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 09:13:46] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 09:13:46, Giờ quy định: 09:13:10
+[2025-03-18 09:13:46] 🔴 Auto checkout: Nhân viên ID: 7 lúc 09:13:10
+[2025-03-18 09:13:46] ✅ Kết thúc Auto Checkout
+[2025-03-18 09:13:46] 🟢 Đã đóng kết nối database.
+[2025-03-18 09:21:18] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-18 09:21:18] 🟢 Đã kết nối thành công với database.
+[2025-03-18 09:21:18] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 7, Giờ: 09:21:18
+[2025-03-18 09:21:18] ✅ Nhân viên ID: 7 - Checkin vào lúc 09:21:18
+[2025-03-18 09:21:18] 🟢 Đã đóng kết nối database.
+[2025-03-18 09:24:45] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 09:24:45] 🟢 Đã kết nối thành công với database.
+[2025-03-18 09:24:45] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 09:24:45] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 09:24:45] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 09:24:45, Giờ quy định: 09:22:10
+[2025-03-18 09:24:45] 🔴 Auto checkout: Nhân viên ID: 7 lúc 09:22:10
+[2025-03-18 09:24:45] ✅ Kết thúc Auto Checkout
+[2025-03-18 09:24:45] 🟢 Đã đóng kết nối database.
+[2025-03-18 09:30:43] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 09:30:43] 🟢 Đã kết nối thành công với database.
+[2025-03-18 09:30:43] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 09:30:43] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 09:30:43] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 09:30:43, Giờ quy định: 09:22:10
+[2025-03-18 09:30:43] 🟢 Không có nhân viên nào cần auto checkout.
+[2025-03-18 09:30:43] ✅ Kết thúc Auto Checkout
+[2025-03-18 09:30:43] 🟢 Đã đóng kết nối database.
+[2025-03-18 09:32:39] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 09:32:39] 🟢 Đã kết nối thành công với database.
+[2025-03-18 09:32:39] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 09:32:39] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 09:32:39] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 09:32:39, Giờ quy định: 09:22:10
+[2025-03-18 09:32:39] 🟢 Không có nhân viên nào cần auto checkout.
+[2025-03-18 09:32:39] ✅ Kết thúc Auto Checkout
+[2025-03-18 09:32:39] 🟢 Đã đóng kết nối database.
+[2025-03-18 09:38:31] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 09:38:31] 🟢 Đã kết nối thành công với database.
+[2025-03-18 09:38:31] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 09:38:31] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 09:38:31] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 09:38:31, Giờ quy định: 09:22:10
+[2025-03-18 09:38:31] 🟢 Không có nhân viên nào cần auto checkout.
+[2025-03-18 09:38:31] ✅ Kết thúc Auto Checkout
+[2025-03-18 09:38:31] 🟢 Đã đóng kết nối database.
+[2025-03-18 09:42:26] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-18 09:42:26] 🟢 Đã kết nối thành công với database.
+[2025-03-18 09:42:26] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 7, Giờ: 09:42:26
+[2025-03-18 09:42:26] ✅ Nhân viên ID: 7 - Checkin vào lúc 09:42:26
+[2025-03-18 09:42:26] 🟢 Đã đóng kết nối database.
+[2025-03-18 09:43:36] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 09:43:36] 🟢 Đã kết nối thành công với database.
+[2025-03-18 09:43:36] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 09:43:36] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 09:43:36] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 09:43:36, Giờ quy định: 09:43:10
+[2025-03-18 09:43:36] 🔴 Auto checkout: Nhân viên ID: 7 lúc 09:43:10
+[2025-03-18 09:43:36] ✅ Kết thúc Auto Checkout
+[2025-03-18 09:43:36] 🟢 Đã đóng kết nối database.
+[2025-03-18 09:46:53] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 09:46:53] 🟢 Đã kết nối thành công với database.
+[2025-03-18 09:46:53] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 09:46:53] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 09:46:53] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 09:46:53, Giờ quy định: 09:43:10
+[2025-03-18 09:46:53] 🟢 Không có nhân viên nào cần auto checkout.
+[2025-03-18 09:46:53] ✅ Kết thúc Auto Checkout
+[2025-03-18 09:46:53] 🟢 Đã đóng kết nối database.
+[2025-03-18 09:47:28] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-18 09:47:29] 🟢 Đã kết nối thành công với database.
+[2025-03-18 09:47:29] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 7, Giờ: 09:47:29
+[2025-03-18 09:47:29] ✅ Nhân viên ID: 7 - Checkin vào lúc 09:47:29
+[2025-03-18 09:47:29] 🟢 Đã đóng kết nối database.
+[2025-03-18 09:53:44] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 09:53:44] 🟢 Đã kết nối thành công với database.
+[2025-03-18 09:53:44] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 09:53:44] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 09:53:44] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 09:53:44, Giờ quy định: 17:00:00
+[2025-03-18 09:53:44] 🟢 Chưa đến giờ auto checkout.
+[2025-03-18 09:53:44] ✅ Kết thúc Auto Checkout
+[2025-03-18 09:53:44] 🟢 Đã đóng kết nối database.
+[2025-03-18 09:57:59] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 09:57:59] 🟢 Đã kết nối thành công với database.
+[2025-03-18 09:57:59] 🟢 Chạy từ CLI (Task Scheduler)
+[2025-03-18 09:57:59] ⏳ Kiểm tra Auto Checkout: Hiện tại: 09:57:59 - Giờ quy định: 17:00:00
+[2025-03-18 09:57:59] 🟢 Chưa đến giờ auto checkout.
+[2025-03-18 09:57:59] ✅ Kết thúc Auto Checkout
+[2025-03-18 09:57:59] 🟢 Đã đóng kết nối database.
+[2025-03-18 10:00:59] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-18 10:00:59] 🟢 Đã kết nối thành công với database.
+[2025-03-18 10:00:59] 🟢 API Request - Hành động: , ID nhân viên: 0, Giờ: 10:00:59
+[2025-03-18 10:00:59] ❌ Dữ liệu không hợp lệ: action=, id=0
+[2025-03-18 10:03:42] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-18 10:03:42] 🟢 Đã kết nối thành công với database.
+[2025-03-18 10:03:42] 🟢 API Request - Hành động: , ID nhân viên: 0, Giờ: 10:03:42
+[2025-03-18 10:03:42] ❌ Dữ liệu không hợp lệ: action=, id=0
+[2025-03-18 10:04:54] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 10:04:54] 🟢 Đã kết nối thành công với database.
+[2025-03-18 10:04:54] 🟢 Chạy từ CLI (Task Scheduler)
+[2025-03-18 10:04:54] 🟢 Chưa đến giờ auto checkout.
+[2025-03-18 10:04:54] ✅ Kết thúc Auto Checkout
+[2025-03-18 10:04:54] 🟢 Đã đóng kết nối database.
+[2025-03-18 10:05:32] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-18 10:05:32] 🟢 Đã kết nối thành công với database.
+[2025-03-18 10:05:32] 🟢 API Request - Hành động: checkin, ID nhân viên: 7, Giờ: 10:05:32
+[2025-03-18 10:05:32] ❌ Nhân viên ID: 7 cần checkout trước khi checkin lại.
+[2025-03-18 10:10:04] 🟢 Script bắt đầu chạy.
+[2025-03-18 10:10:04] 🟢 Đã kết nối thành công với database.
+[2025-03-18 10:10:04] 🟢 Kiểm tra điều kiện Auto Checkout lúc 10:10:04
+[2025-03-18 10:10:04] 🟢 Chưa đến giờ auto checkout.
+[2025-03-18 10:10:04] ✅ Kết thúc Auto Checkout
+[2025-03-18 10:10:04] 🟢 Đã đóng kết nối database.
+[2025-03-18 10:10:52] 🟢 Script bắt đầu chạy.
+[2025-03-18 10:10:52] 🟢 Đã kết nối thành công với database.
+[2025-03-18 10:10:52] 🟢 Kiểm tra điều kiện Auto Checkout lúc 10:10:52
+[2025-03-18 10:10:52] 🟢 Chưa đến giờ auto checkout.
+[2025-03-18 10:10:52] ✅ Kết thúc Auto Checkout
+[2025-03-18 10:10:52] 🟢 Đã đóng kết nối database.
+[2025-03-18 10:13:40] 🟢 Script bắt đầu chạy.
+[2025-03-18 10:13:40] 🟢 Đã kết nối thành công với database.
+[2025-03-18 10:13:40] 🟢 Kiểm tra điều kiện Auto Checkout lúc 10:13:40
+[2025-03-18 10:13:40] 🟢 Chưa đến giờ auto checkout.
+[2025-03-18 10:13:40] ✅ Kết thúc Auto Checkout
+[2025-03-18 10:13:40] 🟢 Đã đóng kết nối database.
+[2025-03-18 10:14:29] 🟢 Script bắt đầu chạy.
+[2025-03-18 10:14:29] 🟢 Đã kết nối thành công với database.
+[2025-03-18 10:14:29] 🟢 Kiểm tra điều kiện Auto Checkout lúc 10:14:29
+[2025-03-18 10:14:29] 🟢 Chưa đến giờ auto checkout.
+[2025-03-18 10:14:29] ✅ Kết thúc Auto Checkout
+[2025-03-18 10:14:29] 🟢 Đã đóng kết nối database.
+[2025-03-18 10:15:21] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 10:15:21] 🟢 Đã kết nối thành công với database.
+[2025-03-18 10:15:21] 🟢 Chạy từ CLI (Task Scheduler)
+[2025-03-18 10:15:21] ⏳ Kiểm tra Auto Checkout: Hiện tại: 10:15:21 - Giờ quy định: 17:00:00
+[2025-03-18 10:15:21] 🟢 Chưa đến giờ auto checkout.
+[2025-03-18 10:15:21] ✅ Kết thúc Auto Checkout
+[2025-03-18 10:15:21] 🟢 Đã đóng kết nối database.
+[2025-03-18 10:15:26] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 10:15:26] 🟢 Đã kết nối thành công với database.
+[2025-03-18 10:15:26] 🟢 Chạy từ CLI (Task Scheduler)
+[2025-03-18 10:15:26] ⏳ Kiểm tra Auto Checkout: Hiện tại: 10:15:26 - Giờ quy định: 17:00:00
+[2025-03-18 10:15:26] 🟢 Chưa đến giờ auto checkout.
+[2025-03-18 10:15:26] ✅ Kết thúc Auto Checkout
+[2025-03-18 10:15:26] 🟢 Đã đóng kết nối database.
+[2025-03-18 10:16:40] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 10:16:40] 🟢 Đã kết nối thành công với database.
+[2025-03-18 10:16:40] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 10:16:40] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 10:16:40] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 10:16:40, Giờ quy định: 17:00:00
+[2025-03-18 10:16:40] 🟢 Chưa đến giờ auto checkout.
+[2025-03-18 10:16:40] ✅ Kết thúc Auto Checkout
+[2025-03-18 10:16:40] 🟢 Đã đóng kết nối database.
+[2025-03-18 10:17:25] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 10:17:25] 🟢 Đã kết nối thành công với database.
+[2025-03-18 10:17:25] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 10:17:25] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 10:17:25] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 10:17:25, Giờ quy định: 17:00:00
+[2025-03-18 10:17:25] 🟢 Chưa đến giờ auto checkout.
+[2025-03-18 10:17:25] ✅ Kết thúc Auto Checkout
+[2025-03-18 10:17:25] 🟢 Đã đóng kết nối database.
+[2025-03-18 10:23:20] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 10:23:20] 🟢 Đã kết nối thành công với database.
+[2025-03-18 10:23:20] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 10:23:20] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 10:23:20] 🟢 Kiểm tra ngày: 2025-03-07
+[2025-03-18 10:23:20] 🔴 Auto checkout: Nhân viên ID: 7 vào ngày 2025-03-07 lúc 23:59:59
+[2025-03-18 10:23:20] 🟢 Kiểm tra ngày: 2025-03-08
+[2025-03-18 10:23:20] 🔴 Auto checkout: Nhân viên ID: 7 vào ngày 2025-03-08 lúc 23:59:59
+[2025-03-18 10:23:20] 🟢 Kiểm tra ngày: 2025-03-12
+[2025-03-18 10:23:20] 🔴 Auto checkout: Nhân viên ID: 7 vào ngày 2025-03-12 lúc 23:59:59
+[2025-03-18 10:23:20] 🟢 Kiểm tra ngày: 2025-03-17
+[2025-03-18 10:23:20] 🔴 Auto checkout: Nhân viên ID: 7 vào ngày 2025-03-17 lúc 23:59:59
+[2025-03-18 10:23:20] 🟢 Kiểm tra ngày: 2025-03-11
+[2025-03-18 10:23:20] 🔴 Auto checkout: Nhân viên ID: 12 vào ngày 2025-03-11 lúc 23:59:59
+[2025-03-18 10:23:20] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 10:23:20, Giờ quy định: 17:00:00
+[2025-03-18 10:23:20] 🟢 Chưa đến giờ auto checkout.
+[2025-03-18 10:23:20] ✅ Kết thúc Auto Checkout
+[2025-03-18 10:23:20] 🟢 Đã đóng kết nối database.
+[2025-03-18 10:24:02] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 10:24:02] 🟢 Đã kết nối thành công với database.
+[2025-03-18 10:24:02] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 10:24:02] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 10:24:02] 🟢 Kiểm tra ngày: 2025-03-06
+[2025-03-18 10:24:02] 🔴 Auto checkout: Nhân viên ID: 7 vào ngày 2025-03-06 lúc 23:59:59
+[2025-03-18 10:24:02] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 10:24:02, Giờ quy định: 17:00:00
+[2025-03-18 10:24:02] 🟢 Chưa đến giờ auto checkout.
+[2025-03-18 10:24:02] ✅ Kết thúc Auto Checkout
+[2025-03-18 10:24:02] 🟢 Đã đóng kết nối database.
+[2025-03-18 10:24:39] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 10:24:39] 🟢 Đã kết nối thành công với database.
+[2025-03-18 10:24:39] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 10:24:39] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 10:24:39] 🟢 Không có ngày nào cần auto checkout.
+[2025-03-18 10:24:39] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 10:24:39, Giờ quy định: 17:00:00
+[2025-03-18 10:24:39] 🟢 Chưa đến giờ auto checkout.
+[2025-03-18 10:24:39] ✅ Kết thúc Auto Checkout
+[2025-03-18 10:24:39] 🟢 Đã đóng kết nối database.
+[2025-03-18 10:25:07] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 10:25:07] 🟢 Đã kết nối thành công với database.
+[2025-03-18 10:25:07] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 10:25:07] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 10:25:07] 🟢 Kiểm tra ngày: 2025-01-06
+[2025-03-18 10:25:07] 🔴 Auto checkout: Nhân viên ID: 7 vào ngày 2025-01-06 lúc 23:59:59
+[2025-03-18 10:25:07] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 10:25:07, Giờ quy định: 17:00:00
+[2025-03-18 10:25:07] 🟢 Chưa đến giờ auto checkout.
+[2025-03-18 10:25:07] ✅ Kết thúc Auto Checkout
+[2025-03-18 10:25:07] 🟢 Đã đóng kết nối database.
+[2025-03-18 10:26:19] 🟢 Script bắt đầu chạy. Chế độ: CLI
+[2025-03-18 10:26:19] 🟢 Đã kết nối thành công với database.
+[2025-03-18 10:26:19] 🟢 Đang chạy từ CLI (Task Scheduler).
+[2025-03-18 10:26:19] 🟢 Đã tạo file test: C:\xampp\htdocs\HTTTDN\admin\Controller\Employee/test_scheduler.txt
+[2025-03-18 10:26:19] 🟢 Kiểm tra ngày: 2025-03-08
+[2025-03-18 10:26:19] 🔴 Auto checkout: Nhân viên ID: 7 vào ngày 2025-03-08 lúc 23:59:59
+[2025-03-18 10:26:19] ⏳ Kiểm tra Auto Checkout - Giờ hiện tại: 10:26:19, Giờ quy định: 17:00:00
+[2025-03-18 10:26:19] 🟢 Chưa đến giờ auto checkout.
+[2025-03-18 10:26:19] ✅ Kết thúc Auto Checkout
+[2025-03-18 10:26:19] 🟢 Đã đóng kết nối database.
+[2025-03-28 15:14:51] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-28 15:14:51] 🟢 Đã kết nối thành công với database.
+[2025-03-28 15:14:51] 🟢 Yêu cầu từ API - Hành động: checkout, ID nhân viên: 12, Giờ: 15:14:51
+[2025-03-28 15:14:51] ❌ Không thể checkout: Nhân viên ID: 12 không có checkin hoặc đã checkout.
+[2025-03-29 09:39:50] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-29 09:39:50] 🟢 Đã kết nối thành công với database.
+[2025-03-29 09:39:50] 🟢 Yêu cầu từ API - Hành động: checkout, ID nhân viên: 12, Giờ: 09:39:50
+[2025-03-29 09:39:50] ❌ Không thể checkout: Nhân viên ID: 12 không có checkin hoặc đã checkout.
+[2025-03-29 09:39:55] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-29 09:39:55] 🟢 Đã kết nối thành công với database.
+[2025-03-29 09:39:55] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 12, Giờ: 09:39:55
+[2025-03-29 09:39:55] 🟢 Nhân viên ID: 12 checkin lúc 09:39:55 → Hệ số: 1 (Lần thứ 1)
+[2025-03-29 09:39:55] ✅ Nhân viên ID: 12 - Checkin thành công lúc 09:39:55 (Hệ số: 1)
+[2025-03-29 09:39:55] 🟢 Đã đóng kết nối database.
+[2025-03-29 09:43:21] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-29 09:43:21] 🟢 Đã kết nối thành công với database.
+[2025-03-29 09:43:21] 🟢 Yêu cầu từ API - Hành động: checkout, ID nhân viên: 12, Giờ: 09:43:21
+[2025-03-29 09:43:21] 🟢 Nhân viên ID: 12 chuẩn bị checkout vào lúc 09:43:21, Tăng ca dự kiến: 0 giờ
+[2025-03-29 09:43:21] ❌ Lỗi hệ thống: Unknown column 'TANGCA' in 'field list'
+[2025-03-29 09:43:21] 🟢 Đã đóng kết nối database.
+[2025-03-29 09:43:25] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-29 09:43:25] 🟢 Đã kết nối thành công với database.
+[2025-03-29 09:43:25] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 12, Giờ: 09:43:25
+[2025-03-29 09:43:25] ❌ Nhân viên ID: 12 đã checkin trong ngày và chưa checkout.
+[2025-03-29 09:43:47] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-29 09:43:47] 🟢 Đã kết nối thành công với database.
+[2025-03-29 09:43:47] 🟢 Yêu cầu từ API - Hành động: checkout, ID nhân viên: 12, Giờ: 09:43:47
+[2025-03-29 09:43:47] 🟢 Nhân viên ID: 12 chuẩn bị checkout vào lúc 09:43:47, Tăng ca dự kiến: 0 giờ
+[2025-03-29 09:43:47] ❌ Lỗi hệ thống: Unknown column 'TANGCA' in 'field list'
+[2025-03-29 09:43:47] 🟢 Đã đóng kết nối database.
+[2025-03-28 15:18:58] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-28 15:18:58] 🟢 Đã kết nối thành công với database.
+[2025-03-28 15:18:58] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 12, Giờ: 15:18:58
+[2025-03-28 15:18:58] 🟢 Nhân viên ID: 12 checkin lúc 15:18:58 → Hệ số: 1 (Lần thứ 1)
+[2025-03-28 15:18:58] ✅ Nhân viên ID: 12 - Checkin thành công lúc 15:18:58 (Hệ số: 1)
+[2025-03-28 15:18:58] 🟢 Đã đóng kết nối database.[2025-03-31 16:52:34] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-03-31 16:52:34] 🟢 Đã kết nối thành công với database.
+[2025-03-31 16:52:34] 🟢 Yêu cầu từ API - Hành động: checkout, ID nhân viên: 12, Giờ: 16:52:34
+[2025-03-31 16:52:34] ❌ Không thể checkout: Nhân viên ID: 12 không có checkin hoặc đã checkout.
+[2025-04-09 08:30:35] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-04-09 08:30:35] 🟢 Đã kết nối thành công với database.
+[2025-04-09 08:30:35] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 12, Giờ: 08:30:35
+[2025-04-09 08:30:35] 🟢 Nhân viên ID: 12 checkin lúc 08:30:35 → Hệ số: 1 (Lần thứ 1)
+[2025-04-09 08:30:35] ✅ Nhân viên ID: 12 - Checkin thành công lúc 08:30:35 (Hệ số: 1)
+[2025-04-09 08:30:35] 🟢 Đã đóng kết nối database.
+[2025-04-09 08:30:39] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-04-09 08:30:39] 🟢 Đã kết nối thành công với database.
+[2025-04-09 08:30:39] 🟢 Yêu cầu từ API - Hành động: checkout, ID nhân viên: 12, Giờ: 08:30:39
+[2025-04-09 08:30:39] 🟢 Nhân viên ID: 12 chuẩn bị checkout vào lúc 08:30:39, Tăng ca dự kiến: 0 giờ
+[2025-04-09 08:30:39] ✅ Nhân viên ID: 12 - Checkout thành công vào lúc 08:30:39, Tăng ca: 0 giờ
+[2025-04-09 08:30:39] 🟢 Đã đóng kết nối database.
+[2025-04-13 17:19:43] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-04-13 17:19:43] 🟢 Đã kết nối thành công với database.
+[2025-04-13 17:19:43] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 12, Giờ: 17:19:43
+[2025-04-13 17:19:43] 🟢 Nhân viên ID: 12 checkin lúc 17:19:43 → Hệ số: 1.5 (Lần thứ 1)
+[2025-04-13 17:19:43] ✅ Nhân viên ID: 12 - Checkin thành công lúc 17:19:43 (Hệ số: 1.5)
+[2025-04-13 17:19:43] 🟢 Đã đóng kết nối database.
+[2025-04-13 17:19:50] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-04-13 17:19:50] 🟢 Đã kết nối thành công với database.
+[2025-04-13 17:19:50] 🟢 Yêu cầu từ API - Hành động: checkout, ID nhân viên: 12, Giờ: 17:19:50
+[2025-04-13 17:19:50] 🟢 Nhân viên ID: 12 chuẩn bị checkout vào lúc 17:19:50, Tăng ca dự kiến: 0 giờ
+[2025-04-13 17:19:50] ✅ Nhân viên ID: 12 - Checkout thành công vào lúc 17:19:50, Tăng ca: 0 giờ
+[2025-04-13 17:19:50] 🟢 Đã đóng kết nối database.
+[2025-04-13 17:19:52] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-04-13 17:19:52] 🟢 Đã kết nối thành công với database.
+[2025-04-13 17:19:52] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 12, Giờ: 17:19:52
+[2025-04-13 17:19:52] 🟢 Nhân viên ID: 12 checkin lúc 17:19:52 → Hệ số: 1.5 (Lần thứ 2)
+[2025-04-13 17:19:52] ✅ Nhân viên ID: 12 - Checkin thành công lúc 17:19:52 (Hệ số: 1.5)
+[2025-04-13 17:19:52] 🟢 Đã đóng kết nối database.
+[2025-04-13 17:19:57] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-04-13 17:19:57] 🟢 Đã kết nối thành công với database.
+[2025-04-13 17:19:57] 🟢 Yêu cầu từ API - Hành động: checkout, ID nhân viên: 12, Giờ: 17:19:57
+[2025-04-13 17:19:57] 🟢 Nhân viên ID: 12 chuẩn bị checkout vào lúc 17:19:57, Tăng ca dự kiến: 0 giờ
+[2025-04-13 17:19:57] ✅ Nhân viên ID: 12 - Checkout thành công vào lúc 17:19:57, Tăng ca: 0 giờ
+[2025-04-13 17:19:57] 🟢 Đã đóng kết nối database.
+[2025-04-13 17:47:57] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-04-13 17:47:57] 🟢 Đã kết nối thành công với database.
+[2025-04-13 17:47:57] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 13, Giờ: 17:47:57
+[2025-04-13 17:47:57] 🟢 Nhân viên ID: 13 checkin lúc 17:47:57 → Hệ số: 1.5 (Lần thứ 1)
+[2025-04-13 17:47:57] ✅ Nhân viên ID: 13 - Checkin thành công lúc 17:47:57 (Hệ số: 1.5)
+[2025-04-13 17:47:57] 🟢 Đã đóng kết nối database.
+[2025-04-13 17:49:46] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-04-13 17:49:46] 🟢 Đã kết nối thành công với database.
+[2025-04-13 17:49:46] 🟢 Yêu cầu từ API - Hành động: checkout, ID nhân viên: 13, Giờ: 17:49:46
+[2025-04-13 17:49:46] 🟢 Nhân viên ID: 13 chuẩn bị checkout vào lúc 17:49:46, Tăng ca dự kiến: 0 giờ
+[2025-04-13 17:49:46] ✅ Nhân viên ID: 13 - Checkout thành công vào lúc 17:49:46, Tăng ca: 0 giờ
+[2025-04-13 17:49:46] 🟢 Đã đóng kết nối database.
+[2025-04-14 12:04:04] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-04-14 12:04:04] 🟢 Đã kết nối thành công với database.
+[2025-04-14 12:04:04] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 12, Giờ: 12:04:04
+[2025-04-14 12:04:04] 🟢 Nhân viên ID: 12 checkin lúc 12:04:04 → Hệ số: 1 (Lần thứ 1)
+[2025-04-14 12:04:04] ✅ Nhân viên ID: 12 - Checkin thành công lúc 12:04:04 (Hệ số: 1)
+[2025-04-14 12:04:04] 🟢 Đã đóng kết nối database.
+[2025-04-14 12:04:05] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-04-14 12:04:05] 🟢 Đã kết nối thành công với database.
+[2025-04-14 12:04:05] 🟢 Yêu cầu từ API - Hành động: checkout, ID nhân viên: 12, Giờ: 12:04:05
+[2025-04-14 12:04:05] 🟢 Nhân viên ID: 12 chuẩn bị checkout vào lúc 12:04:05, Tăng ca dự kiến: 0 giờ
+[2025-04-14 12:04:05] ✅ Nhân viên ID: 12 - Checkout thành công vào lúc 12:04:05, Tăng ca: 0 giờ
+[2025-04-14 12:04:05] 🟢 Đã đóng kết nối database.
+[2025-04-19 20:48:29] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-04-19 20:48:29] 🟢 Đã kết nối thành công với database.
+[2025-04-19 20:48:29] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 12, Giờ: 20:48:29
+[2025-04-19 20:48:29] 🟢 Nhân viên ID: 12 checkin lúc 20:48:29 → Hệ số: 1.5 (Lần thứ 1)
+[2025-04-19 20:48:29] ✅ Nhân viên ID: 12 - Checkin thành công lúc 20:48:29 (Hệ số: 1.5)
+[2025-04-19 20:48:29] 🟢 Đã đóng kết nối database.
+[2025-04-19 20:54:07] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-04-19 20:54:07] 🟢 Đã kết nối thành công với database.
+[2025-04-19 20:54:07] 🟢 Yêu cầu từ API - Hành động: checkout, ID nhân viên: 12, Giờ: 20:54:07
+[2025-04-19 20:54:07] 🟢 Nhân viên ID: 12 chuẩn bị checkout vào lúc 20:54:07, Tăng ca dự kiến: 1.9019444444444 giờ
+[2025-04-19 20:54:07] ✅ Nhân viên ID: 12 - Checkout thành công vào lúc 20:54:07, Tăng ca: 1.9019444444444 giờ
+[2025-04-19 20:54:07] 🟢 Đã đóng kết nối database.
+[2025-04-22 16:19:55] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-04-22 16:19:55] 🟢 Đã kết nối thành công với database.
+[2025-04-22 16:19:55] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 12, Giờ: 16:19:55
+[2025-04-22 16:19:55] 🟢 Nhân viên ID: 12 checkin lúc 16:19:55 → Hệ số: 1 (Lần thứ 1)
+[2025-04-22 16:19:55] ✅ Nhân viên ID: 12 - Checkin thành công lúc 16:19:55 (Hệ số: 1)
+[2025-04-22 16:19:55] 🟢 Đã đóng kết nối database.
+[2025-04-22 16:20:05] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-04-22 16:20:05] 🟢 Đã kết nối thành công với database.
+[2025-04-22 16:20:05] 🟢 Yêu cầu từ API - Hành động: checkout, ID nhân viên: 12, Giờ: 16:20:05
+[2025-04-22 16:20:05] 🟢 Nhân viên ID: 12 chuẩn bị checkout vào lúc 16:20:05, Tăng ca dự kiến: 0 giờ
+[2025-04-22 16:20:05] ✅ Nhân viên ID: 12 - Checkout thành công vào lúc 16:20:05, Tăng ca: 0 giờ
+[2025-04-22 16:20:05] 🟢 Đã đóng kết nối database.
+[2025-05-09 21:49:15] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-05-09 21:49:15] 🟢 Đã kết nối thành công với database.
+[2025-05-09 21:49:15] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 12, Giờ: 21:49:15
+[2025-05-09 21:49:15] 🟢 Nhân viên ID: 12 checkin lúc 21:49:15 → Hệ số: 1.5 (Lần thứ 1)
+[2025-05-09 21:49:15] ✅ Nhân viên ID: 12 - Checkin thành công lúc 21:49:15 (Hệ số: 1.5)
+[2025-05-09 21:49:15] 🟢 Đã đóng kết nối database.
+[2025-05-09 21:49:34] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-05-09 21:49:34] 🟢 Đã kết nối thành công với database.
+[2025-05-09 21:49:34] 🟢 Yêu cầu từ API - Hành động: checkout, ID nhân viên: 12, Giờ: 21:49:34
+[2025-05-09 21:49:34] 🟢 Nhân viên ID: 12 chuẩn bị checkout vào lúc 21:49:34, Tăng ca dự kiến: 2.8261111111111 giờ
+[2025-05-09 21:49:34] ✅ Nhân viên ID: 12 - Checkout thành công vào lúc 21:49:34, Tăng ca: 2.8261111111111 giờ
+[2025-05-09 21:49:34] 🟢 Đã đóng kết nối database.
+[2025-05-09 21:50:42] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-05-09 21:50:42] 🟢 Đã kết nối thành công với database.
+[2025-05-09 21:50:42] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 12, Giờ: 21:50:42
+[2025-05-09 21:50:42] 🟢 Nhân viên ID: 12 checkin lúc 21:50:42 → Hệ số: 1.5 (Lần thứ 2)
+[2025-05-09 21:50:42] ✅ Nhân viên ID: 12 - Checkin thành công lúc 21:50:42 (Hệ số: 1.5)
+[2025-05-09 21:50:42] 🟢 Đã đóng kết nối database.
+[2025-05-09 21:51:38] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-05-09 21:51:38] 🟢 Đã kết nối thành công với database.
+[2025-05-09 21:51:38] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 12, Giờ: 21:51:38
+[2025-05-09 21:51:38] ❌ Nhân viên ID: 12 đã checkin 2 lần trong ngày (vượt quá giới hạn).
+[2025-05-14 14:38:55] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-05-14 14:38:55] 🟢 Đã kết nối thành công với database.
+[2025-05-14 14:38:55] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 13, Giờ: 14:38:55
+[2025-05-14 14:38:55] 🟢 Nhân viên ID: 13 checkin lúc 14:38:55 → Hệ số: 1 (Lần thứ 1)
+[2025-05-14 14:38:55] ✅ Nhân viên ID: 13 - Checkin thành công lúc 14:38:55 (Hệ số: 1)
+[2025-05-14 14:38:55] 🟢 Đã đóng kết nối database.
+[2025-05-14 14:38:57] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-05-14 14:38:57] 🟢 Đã kết nối thành công với database.
+[2025-05-14 14:38:57] 🟢 Yêu cầu từ API - Hành động: checkout, ID nhân viên: 13, Giờ: 14:38:57
+[2025-05-14 14:38:57] 🟢 Nhân viên ID: 13 chuẩn bị checkout vào lúc 14:38:57, Tăng ca dự kiến: 0 giờ
+[2025-05-14 14:38:57] ✅ Nhân viên ID: 13 - Checkout thành công vào lúc 14:38:57, Tăng ca: 0 giờ
+[2025-05-14 14:38:57] 🟢 Đã đóng kết nối database.
+[2025-05-14 14:41:28] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-05-14 14:41:28] 🟢 Đã kết nối thành công với database.
+[2025-05-14 14:41:28] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 13, Giờ: 14:41:28
+[2025-05-14 14:41:28] 🟢 Nhân viên ID: 13 checkin lúc 14:41:28 → Hệ số: 1 (Lần thứ 2)
+[2025-05-14 14:41:28] ✅ Nhân viên ID: 13 - Checkin thành công lúc 14:41:28 (Hệ số: 1)
+[2025-05-14 14:41:28] 🟢 Đã đóng kết nối database.
+[2025-05-14 14:41:33] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-05-14 14:41:33] 🟢 Đã kết nối thành công với database.
+[2025-05-14 14:41:33] 🟢 Yêu cầu từ API - Hành động: checkout, ID nhân viên: 13, Giờ: 14:41:33
+[2025-05-14 14:41:33] 🟢 Nhân viên ID: 13 chuẩn bị checkout vào lúc 14:41:33, Tăng ca dự kiến: 0 giờ
+[2025-05-14 14:41:33] ✅ Nhân viên ID: 13 - Checkout thành công vào lúc 14:41:33, Tăng ca: 0 giờ
+[2025-05-14 14:41:33] 🟢 Đã đóng kết nối database.
+[2025-05-14 14:41:33] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-05-14 14:41:33] 🟢 Đã kết nối thành công với database.
+[2025-05-14 14:41:33] 🟢 Yêu cầu từ API - Hành động: checkout, ID nhân viên: 13, Giờ: 14:41:33
+[2025-05-14 14:41:33] ❌ Không thể checkout: Nhân viên ID: 13 không có checkin hoặc đã checkout.
+[2025-05-14 14:45:04] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-05-14 14:45:04] 🟢 Đã kết nối thành công với database.
+[2025-05-14 14:45:04] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 12, Giờ: 14:45:04
+[2025-05-14 14:45:04] ❌ Nhân viên ID: 12 đã checkin trong ngày và chưa checkout.
+[2025-05-14 14:45:10] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-05-14 14:45:10] 🟢 Đã kết nối thành công với database.
+[2025-05-14 14:45:10] 🟢 Yêu cầu từ API - Hành động: checkout, ID nhân viên: 12, Giờ: 14:45:10
+[2025-05-14 14:45:10] 🟢 Nhân viên ID: 12 chuẩn bị checkout vào lúc 14:45:10, Tăng ca dự kiến: 0 giờ
+[2025-05-14 14:45:10] ✅ Nhân viên ID: 12 - Checkout thành công vào lúc 14:45:10, Tăng ca: 0 giờ
+[2025-05-14 14:45:10] 🟢 Đã đóng kết nối database.
+[2025-05-14 14:45:27] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-05-14 14:45:27] 🟢 Đã kết nối thành công với database.
+[2025-05-14 14:45:27] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 12, Giờ: 14:45:27
+[2025-05-14 14:45:27] 🟢 Nhân viên ID: 12 checkin lúc 14:45:27 → Hệ số: 1 (Lần thứ 2)
+[2025-05-14 14:45:27] ✅ Nhân viên ID: 12 - Checkin thành công lúc 14:45:27 (Hệ số: 1)
+[2025-05-14 14:45:27] 🟢 Đã đóng kết nối database.
+[2025-05-14 14:45:30] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-05-14 14:45:30] 🟢 Đã kết nối thành công với database.
+[2025-05-14 14:45:30] 🟢 Yêu cầu từ API - Hành động: checkout, ID nhân viên: 12, Giờ: 14:45:30
+[2025-05-14 14:45:30] 🟢 Nhân viên ID: 12 chuẩn bị checkout vào lúc 14:45:30, Tăng ca dự kiến: 0 giờ
+[2025-05-14 14:45:30] ✅ Nhân viên ID: 12 - Checkout thành công vào lúc 14:45:30, Tăng ca: 0 giờ
+[2025-05-14 14:45:30] 🟢 Đã đóng kết nối database.
+[2025-05-14 15:33:32] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-05-14 15:33:32] 🟢 Đã kết nối thành công với database.
+[2025-05-14 15:33:32] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 12, Giờ: 15:33:32
+[2025-05-14 15:33:32] ❌ Nhân viên ID: 12 đã checkin 2 lần trong ngày (vượt quá giới hạn).
+[2025-05-14 15:33:40] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-05-14 15:33:40] 🟢 Đã kết nối thành công với database.
+[2025-05-14 15:33:40] 🟢 Yêu cầu từ API - Hành động: checkout, ID nhân viên: 12, Giờ: 15:33:40
+[2025-05-14 15:33:40] ❌ Không thể checkout: Nhân viên ID: 12 không có checkin hoặc đã checkout.
+[2025-05-14 15:35:32] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-05-14 15:35:32] 🟢 Đã kết nối thành công với database.
+[2025-05-14 15:35:32] 🟢 Yêu cầu từ API - Hành động: checkin, ID nhân viên: 13, Giờ: 15:35:32
+[2025-05-14 15:35:32] 🟢 Nhân viên ID: 13 checkin lúc 15:35:32 → Hệ số: 1 (Lần thứ 1)
+[2025-05-14 15:35:32] ✅ Nhân viên ID: 13 - Checkin thành công lúc 15:35:32 (Hệ số: 1)
+[2025-05-14 15:35:32] 🟢 Đã đóng kết nối database.
+[2025-05-14 15:35:40] 🟢 Script bắt đầu chạy. Chế độ: API
+[2025-05-14 15:35:40] 🟢 Đã kết nối thành công với database.
+[2025-05-14 15:35:40] 🟢 Yêu cầu từ API - Hành động: checkout, ID nhân viên: 13, Giờ: 15:35:40
+[2025-05-14 15:35:40] 🟢 Nhân viên ID: 13 chuẩn bị checkout vào lúc 15:35:40, Tăng ca dự kiến: 0 giờ
+[2025-05-14 15:35:40] ✅ Nhân viên ID: 13 - Checkout thành công vào lúc 15:35:40, Tăng ca: 0 giờ
+[2025-05-14 15:35:40] 🟢 Đã đóng kết nối database.

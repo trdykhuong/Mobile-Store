@@ -1,0 +1,56 @@
+.addModal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s linear 0.4s;
+    z-index: 20;
+}
+
+.open-addModal-content {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s;
+}
+
+.addModal-content h1 {
+    position: absolute;
+    margin: -5% 0% 0% 21%;
+    padding: 1%;
+    width: 60%;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #0ddc14;
+    color: white;
+}
+
+.add-content {
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.item-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.item-form input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 45%;
+}
+
+.item-form input:focus {
+    outline: none;
+}

@@ -1,0 +1,15 @@
+[2025-03-16 11:43:40] Nhân viên ID: 7 - Checkin vào lúc 11:43:40
+[2025-03-16 11:45:39] ⚡ Script auto_checkout chạy tại: 11:45:39
+[2025-03-16 11:45:39] ⏳ Đã đến giờ auto checkout: 11:45:00
+[2025-03-16 11:45:39] 🔍 Tìm thấy 1 bản ghi cần auto checkout
+[2025-03-16 11:45:39] 👉 Nhân viên ID: 7 - CHECKIN: 11:43:40 - Đang thực hiện auto checkout
+[2025-03-16 11:45:39] ✔ Thành công: ID: 7 đã checkout lúc 11:45:00
+[2025-03-16 11:45:39] 🔚 Kết thúc script auto_checkout
+[2025-03-16 11:46:55] Nhân viên ID: 7 - Checkin vào lúc 11:46:55
+[2025-03-16 12:03:45] Nhân viên ID: 7 - Checkin vào lúc 12:03:45
+[2025-03-16 12:09:53] ⚡ Script auto_checkout chạy tại: 12:09:53
+[2025-03-16 12:09:53] ⏳ Đã đến giờ auto checkout: 11:47:00
+[2025-03-16 12:09:53] 🔍 Tìm thấy 0 bản ghi cần auto checkout
+[2025-03-16 12:09:53] ⚠ Không có bản ghi nào cần auto checkout
+[2025-03-16 12:09:53] 🔚 Kết thúc script auto_checkout
+    [2025-03-16 12:10:24] Nhân viên ID: 7 - Checkin vào lúc 12:10:24

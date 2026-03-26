@@ -1,0 +1,55 @@
+.row1{
+    position: relative;
+    min-height: 0.5cm;
+    border: 1px solid black;
+    padding-top: 1%;
+    padding-left: 2%;
+}
+.h2{
+    text-align: center;
+    border: 1px solid black;
+    padding: 2%;
+    font-size: 25px;
+}
+.main{
+    /* border: 1px solid black; */
+    width: 13cm;
+    height: 17cm;
+    font-size: 15px;
+    /* background-color: aqua; */
+}
+.row{
+    position: relative;
+    display: flex;
+}
+
+.row div{
+    position: relative;
+    border: 1px solid black;
+    min-height: 0.5cm;
+    padding-top: 1.5%;
+}
+.col1{
+    text-align: center;
+    width: 6.25%;
+}
+.col2{
+    width: 20%;
+    padding-left: 1%;
+}
+.col3{
+    text-align: center;
+    width: 22.5%;
+}
+.col4{
+    text-align: center;
+    width: 6.25%;
+}
+.col5{
+    width: 22.5%;
+    padding-left: 1%;
+}
+.col6{
+    text-align: center;
+    width: 20%;
+}

@@ -1,0 +1,40 @@
+
+.chart-container {
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+canvas {
+    width: 100%;
+    height: 500px;
+    display: none;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+#topProductsList {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#topProductsList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#topProductsList li {
+    padding: 5px 0;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+#topProductsList li:last-child {
+    border-bottom: none;
+}

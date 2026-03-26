@@ -1,0 +1,71 @@
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th, table td {
+    border: 1px solid #e0e0e0;
+    padding: 14px 16px;
+}
+
+table th {
+    background-color: #363a3d;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+.id, .role, .state {
+    text-align: center;
+}
+
+/* Status Classes */
+.active {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.inactive {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+
+    table th, table td {
+        padding: 12px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .add-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}

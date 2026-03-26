@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f5fb;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+    width: calc(100% - 210px);
+    transition: all 0.7s ease;
+}
+
+.header .first-header { 
+    height: 50px;
+    padding-left: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #ff920b 0, #f35c17 90%);
+}
+
+.header .second-header {
+    height: 50px;
+    padding-left: 80px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.second-header-main {
+    margin-top: 7.5px;
+    display: flex;
+    gap: 5px;
+}
+
+.second-header-main button {
+    height: 35px;
+    padding: 0px 8px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.second-header-main button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.second-header-main button:hover {
+    background-color: #f7e3d4;
+    color: #ff7b1d;
+}
+
+.second-header-main button.active {
+    background-color: #f7e3d4;
+    color: #ff7b1d;
+    font-weight: bold;
+    border: 1px solid #ff7b1d;
+}
+
+.home {
+    background-color: #f7e3d4;
+}
+
+.home-outline {
+    color: transparent;
+    font-size: 19px;
+    -webkit-text-stroke: 1px #ff7b1d;
+}
+
+.line {
+    border: 1px solid #ccc;
+}
+    
+/* Nội dung chính */
+.main {
+    padding-top: 140px;
+}
+
+.container {
+    margin-left: 80px;
+    padding: 15px;
+    width: calc(100% - 120px);
+    min-height: 81vh;
+    border-radius: 8px 8px 0px 0px;
+    background-color: white;
+}
+
+/* Effect nhưng chọn chức năng tương ứng khi mở trang do thẻ a */
+.update-employee-effect.active a,
+.detail-order-effect.active a  {
+    background: linear-gradient(90deg, #ff5e00 0, #ffa46b 90%);
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.update-employee-effect.active a i,
+.detail-order-effect.active a i {
+    color: white;
+    font-weight: bold;
+}

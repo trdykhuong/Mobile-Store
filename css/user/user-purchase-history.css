@@ -1,0 +1,427 @@
+/* Lọc hóa đơn */
+.nav-info {
+    margin-top: 30px;
+}
+
+.nav-info ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-info li {
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:hsl(0, 80.50%, 92.00%);
+}
+
+.nav-info li:hover {
+    background-color: #eb1616;
+    color: white;
+}
+
+#status-filter li.active {
+    background-color: #eb1616;
+    color: white;
+}
+
+/* Form hóa đơn */
+.purchase-history-content {
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-height: 800px;
+    -ms-overflow-style: none; /* Ẩn thanh cuộn trên IE/Edge */
+}
+
+.purchase-history-content::-webkit-scrollbar {
+    display: none; /* Ẩn thanh cuộn trên Chrome, Safari */
+}
+
+.purchase-history-table {
+    transition: all 0.3s ease;
+}
+
+.purchase-history-table.active {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.95);
+}
+
+.main-content {
+    border: 1px solid #bbbbbb;
+    width: 890px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Nội dung đầu */
+.first-content {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #bbbbbb;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.first-content .order-status {
+    color: rgb(38, 207, 38);
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.20);
+}
+
+/* Danh sách sản phẩm trong đơn hàng */
+.second-content {
+    padding: 10px 0px;
+    border-bottom: 1px solid #bbbbbb;
+    display: flex;
+}
+
+.second-content img {
+    width: 70px;
+}
+
+.second-content .order-product {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+/* Nội dung thứ ba */
+.third-content {
+    padding: 10px 0px;
+}
+
+.third-content .total-order-amount {
+    display: flex;
+    justify-content: space-between;
+    color: #eb1616;
+}
+
+.third-content .total-order-amount p {
+    font-size: 17px;
+}
+
+.third-content button {
+    background-color: white;
+    border: 1px solid #eb1616;
+    border-radius: 30px;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+    color: #eb1616;
+    margin-top: 10px;  
+}
+
+.third-content button:hover {
+    background-color: #eb1616;
+    color: white;
+}
+
+/* Chi tiết đơn hàng */
+.form-order-detail {
+    display: flex;
+    justify-content: center;
+}
+
+.order-detail {
+    position: absolute;
+    top: 128px;
+    padding: 15px 10px;
+    width: 890px;
+    max-height: 800px;
+    border-radius: 5px;
+    border: 1px solid #bbbbbb;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+    -ms-overflow-style: none; /* Ẩn thanh cuộn trên IE/Edge */
+}
+
+.order-detail::-webkit-scrollbar {
+    display: none; /* Ẩn thanh cuộn trên Chrome, Safari */
+}
+
+.order-detail.active {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.first-content-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.first-content-detail .order-id-detail {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.first-content-detail .order-status-detail {
+    padding: 5px 15px;
+    background-color:  rgb(61, 187, 61);
+    border-radius: 5px;
+    color: white;
+}
+
+.order-time-detail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.orderer-information {
+    padding: 10px 0px;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.orderer-information-name,
+.orderer-information-phone,
+.orderer-information-address,
+.orderer-information-payment,
+.orderer-information-refund {
+    display: flex;
+    margin-top: 10px;
+}
+
+.orderer-information-name i,
+.orderer-information-phone i,
+.orderer-information-address i,
+.orderer-information-payment i,
+.orderer-information-refund i {
+    width: 20px;
+}
+
+.second-content-detail {
+    padding: 10px 0px;
+    border-bottom: 1px solid #bbbbbb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second-content-detail-left {
+    display: flex;
+    align-items: center;
+}
+
+.second-content-detail-left img {
+    width: 70px;
+}
+
+.order-product-detail {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+/* Nút đánh giá */
+.btn-review{
+    background-color: white;
+    border: 1px solid #eb1616;
+    border-radius: 10px;    
+    padding: 5px 15px;
+    color: #eb1616;
+    font-size: 12px;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease;
+}
+
+.btn-review:hover {
+    color: white;
+    transform: translateY(-5px);
+    background-color: #eb1616;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Form đánh giá */
+.modal {
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background: #fff;
+    border-radius: 10px;
+    width: 600px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { transform: scale(0.8); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+.modal-header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #eb1616;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+.modal-header h3 {
+    font-size: 20px;
+}
+
+.close-modal {
+    font-size: 20px;
+    cursor: pointer;
+    width: 21px;
+    border-radius: 100%;
+}
+
+.close-modal:hover {
+    color: red;
+    background-color: white;
+}
+
+.modal-content img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin: 10px 0px;
+}
+
+.modal-content .modal-title {
+    font-weight: bold;
+    display: block;
+    color: blue;
+}
+
+.modal-rating {
+    display: inline-block;
+}
+
+.modal-star {
+    font-size: 22px;
+    color: #ccc;
+    margin: 0 2px;
+}
+
+.modal-star::before {
+    content: "★"; 
+    font-size: 40px;
+    color: #ccc; 
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.modal-star.filled::before {
+    color: #F59E0B; 
+}
+
+#modal-rating-label {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.modal-to-rate {
+    text-align: left;
+    margin: 10px 0px 0px 10px;
+}
+
+#review-comment {
+    width: calc(100% - 10px);
+    height: 100px;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    resize: none;
+    font-size: 14px;
+}
+
+.sumit-evaluation {
+    padding: 10px;
+    margin: 0px 0px 10px 10px;
+    background: #eb1616;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    display: flex;
+    justify-content: left;
+}
+
+.sumit-evaluation i {
+    margin-right: 5px;
+}
+
+.sumit-evaluation:hover {
+    background: blue;
+}
+
+.total-order-amount-detail table {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.total-order-amount-detail td {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+.total-price-detail {
+    color: #eb1616;
+}
+
+.fourth-content-detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-return,
+.btn-cancel,
+.btn-received,
+.btn-refund {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: 1px solid #eb1616;
+    background-color: white;
+    border-radius: 10px;
+    color: #eb1616;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-return:hover,
+.btn-cancel:hover,
+.btn-received:hover,
+.btn-refund:hover {
+    color: white;
+    background-color: #eb1616;
+}
+
+.btn-cancel {
+    text-align: right;
+}

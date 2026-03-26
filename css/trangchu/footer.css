@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+}
+
+h3 {
+    letter-spacing: 1px;
+}
+
+.footer {
+    width: 1290px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-hotline-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer-hotline-wrap {
+   margin-top: 15px;
+}
+
+.hotline {
+    border: 1px solid rgb(133, 132, 132);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    height: 60px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.hotline:hover {
+    background-color: rgb(241, 237, 237);
+    color: #eb1616;
+}
+
+.hotline span {
+    font-size: 16.5px;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+}
+
+.number i {
+    font-size: 30px;
+    margin-right: 10px;
+    color: #eb1616;
+}
+
+.number p {
+    font-size: 17px;
+    color: #eb1616;
+    font-weight: bold;
+}
+
+.list-sales-policy {
+    margin-top: 15px;
+}
+
+.list-sales-policy ul li {
+    margin-bottom: 10px;
+    font-size: 17px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.list-sales-policy ul li:hover {
+    color: #eb1616;
+}
+
+.list-sales-policy ul li i {
+    color: black;
+}
+
+.list-sales-policy ul li i {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.list-other-infor {
+    margin-top: 15px;
+}
+
+.list-other-infor ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.list-other-infor ul li:hover {
+    color: #eb1616;
+}
+
+.list-other-infor ul li i {
+    color: black;
+}
+
+.list-other-infor ul li i {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.footer-payment-methods-img {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.footer-payment-methods-img img {
+    width: 35px;
+    border: 1px solid #858484;
+    border-radius: 10px;
+    margin-right: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer-payment-methods-img img:hover {
+    transform: translateY(-5px);
+    filter: brightness(1.2);
+}
+
+.apple-pay {
+   height: 35px;
+   padding: 5px;
+}
+
+.footer-link-with {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.footer-link-with-img img {
+    width: 35px;
+    margin: 15px 10px 0px 0px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 0.5px #8a8989;
+    transition: transform 0.2s ease-in-out;
+}
+
+.footer-link-with-img img:hover {
+    transform: translateY(-5px);
+    filter: brightness(0.85);
+}
+
+.footer-line {
+    width: 1100px;
+    border: 1px solid;
+    margin-top: 40px;
+}
+
+.footer-popup p {
+    margin: 25px 0px;
+    text-align: center;
+    font-size: 14px;
+}

@@ -1,0 +1,374 @@
+.filter {
+    border-bottom: 1px solid #ccc;
+    padding: 0px 0px 5px 0px;
+}
+
+.filter select {
+    margin: 0px 10px 0px 3px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.filter select:focus {
+    outline: none;
+}
+
+.filter button {
+    padding: 7px 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.filter button:hover {
+    background-color: #0ddc14;
+    color: white;
+}
+
+#warning{
+    text-align: center;
+    padding: 1%;
+    color: red;
+}
+.content-detail {
+    margin-top: 10px;
+}
+
+.content-detail h3 {
+    padding-bottom: 10px;
+}
+
+.content-employee {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.employeeInfo {
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: beige;
+    height: 321px;
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+}
+
+.con-img img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.info {
+    margin-top: 10px;
+}
+
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.main-content {
+    width: calc(100% - 240px);
+}
+
+.first-main-content {
+    display: flex;
+    gap: 15px;
+}
+
+.calender {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.day-box {
+    border: 1px solid #ccc;
+    /* border-radius: 8px; */
+    /* margin: 1px; */
+    width: 62px;
+    height: 60px;
+    padding: 5px;
+}
+
+.leave-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.page-off {
+    width: 50%; 
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.page-off-content h3{
+    text-align: center;
+    width: 100%;
+}
+
+.leave-item table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th {
+    border: 1px solid #e0e0e0;
+    padding: 10px 16px;
+}
+
+table th {
+    background-color: #ccc;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+table tbody td {
+    text-align: center;
+    border: 1px solid #d4d4d4;
+    padding: 8px 0px;
+    cursor: pointer;
+}
+
+.second-main-content {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.salary-container {
+    border: 1px solid;
+    width: 50%; 
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.salary-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.salary-item input {
+    width: 35%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.salary-item-one {
+    width: 35%;
+}
+
+.salary-item-one input {
+    width: 50%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.salary-item input:focus,
+.salary-item-one input:focus {
+    outline: none;
+    border: 1px solid #007bff;
+}
+
+.salary-btn {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.salary-btn select {
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.salary-btn select:focus {
+    outline: none;
+    border: 1px solid #007bff;
+}
+
+.edit-salary {
+    width: 50%;
+}
+
+.edit-salary span {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.edit-salary-item {
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-add {
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.btn-add:hover {
+    background-color: #0ddc14;
+    color: white;
+}
+
+.detail-item {
+    width: 100%;
+}
+
+.item-input input {
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.item-input button {
+    background-color: rgb(192, 191, 191);
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.item-input button:hover{
+    background-color: #0ddc14;
+    color: white;
+}
+
+.third-main-content {
+    margin-top: 15px;
+    width: 50%;
+}
+
+.salary-result {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result-item input {
+    width: 40%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.result-item-one {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.result-item-one input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.result-item-one span {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.btn-end {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn-end button {
+    padding: 7px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.submit-btn {
+    background-color: #7ff783;
+}
+
+.submit-btn:hover {
+    background-color: #0ddc14;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,442 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    position: relative;
+    top: 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 130px;
+    background-color: #EAEAEA;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.container { 
+    width: 1290px;
+}
+
+/* Thanh điều hướng */
+.nav-checkout-detail {
+    position: relative;
+    height: 40px;
+    width: 1290px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-checkout-detail::before {
+    content: "";
+    position: absolute;
+    left: -112px;
+    width: 1513px;
+    height: 40px;
+    background: white;
+    border-bottom: 1px solid #bbbbbb;
+    z-index: 1;
+}
+
+.nav-checkout-detail .nav-name {
+    position: relative;
+    z-index: 2;
+    font-size: 15px;
+}
+
+.nav-name a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-name span {
+    cursor: pointer;
+}
+
+.nav-name span:hover {
+    color: #f83434;
+}
+
+/* Thanh quá trình đặt hàng */
+.cart-process {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.cart-process-line-1 {
+    width: 150px; 
+    border-top: 3px dashed #eb1616;
+}
+
+.cart-process-line-2,
+.cart-process-line-3 {
+    width: 150px; 
+    border-top: 3px dashed #f3b8b8;
+}
+
+.cart-process-detail-1 i,
+.cart-process-detail-2 i,
+.cart-process-detail-3 i,
+.cart-process-detail-4 i {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.cart-process-detail-1,
+.cart-process-detail-2 {
+    color: #eb1616;
+}
+
+.cart-process-detail-3,
+.cart-process-detail-4 {
+    color: #f3b8b8;
+} 
+
+.cart-process-detail-name {
+    width: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cart-process-detail-name i {
+    font-size: 16px;
+}
+
+.cart-process-detail-name span {
+    margin-top: 10px;
+}
+
+/* Nội dung */
+.personal-infomation {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-form {
+    width: 900px;
+}
+
+.title-info a {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 22px;
+}
+
+/* Thông tin cá nhân đặt hàng */
+.order-infomation {
+    margin: 30px 0px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-infomation h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Nội dung đầu */
+.first-content {
+    position: relative;
+}
+
+.input-info {
+    position: relative;
+}
+
+.input-info input {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #bbbbbb;
+    transition: all 0.3s ease-in-out;
+}
+
+.input-info input:focus,
+.input-info input:active {
+    outline: none;
+    border-color: #466EB4; 
+    box-shadow: 0 0 0 5px rgba(136, 176, 244, 0.5);
+}
+
+.btn-voucher {
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    z-index: 11;
+    width: 127px;
+    height: 45px;
+    font-size: 16px;
+    cursor: pointer;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-voucher i {
+    font-size: 20px;
+}
+
+.btn-voucher:hover {
+    color: #eb1616;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 50;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+}
+
+.form-choice-voucher {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    z-index: 52;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-50%, -50%) scale(0.95);
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-choice-voucher h2 {
+    padding: 10px 20px;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.form-choice-voucher table {
+    margin: 10px 0px 20px 20px;
+    width: calc(100% - 40px);
+    overflow-x: auto;
+}
+
+.voucher-content {
+    height: 50px;
+    padding: 0px 20px;
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease;
+}
+
+.voucher-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.button-voucher {
+    border-top: 1px solid #bbbbbb;
+    padding: 10px 20px 20px 0px;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.button-voucher button {
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease;
+}
+
+.button-voucher button:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn-return {
+    background-color: white;
+    border: 1px solid #bbbbbb;
+}
+
+.btn-submit {
+    background-color: #eb1616;
+    border: none;
+    color: white;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.form-choice-voucher.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* Nội dung thứ hai */
+.second-content {
+    margin-top: 10px;
+}
+
+.second-content select {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #bbbbbb;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.second-content select option {
+    padding: 10px;
+}
+
+.second-content select:focus,
+.second-content select:active {
+    outline: none;
+    border-color: #466EB4; 
+    box-shadow: 0 0 0 5px rgba(136, 176, 244, 0.5);
+}
+
+/* Nội dung thứ ba */
+.third-content {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.third-content ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.third-content ul li img {
+    width: 90px;
+}
+
+.order-product-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: calc(100% - 30px);
+}
+
+.order-product-detail strong{
+    font-size: 18px;
+}
+
+.order-product-detail-span {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-product-detail-span .total {
+    font-weight: bold;
+}
+
+/* Nội dung thứ tư */
+.fourth-content {
+    display: flex;
+    justify-content: right;
+}
+
+.price-info {
+    width: 350px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.price-info-content {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#final_total {
+    font-weight: bold;
+}
+
+.end-content {
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+}
+
+.site-btn {
+    width: 200px;
+    height: 40px;
+    color: #eb1616;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #eb1616;
+    background-color: white;
+    cursor: pointer;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease;
+}
+
+.site-btn:hover {
+    color: white;
+    background-color: #eb1616;
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/*CSS chọn tỉnh thành */
+.css_select_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.css_select {
+    display: inline-table;
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: solid 1px #bbbbbb;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.css_select:focus {
+    outline: none;
+    border-color: #466EB4; 
+    box-shadow: 0 0 0 5px rgba(136, 176, 244, 0.5);
+}

@@ -1,0 +1,184 @@
+.filter {
+    display: flex;
+    gap: 8px;
+}
+
+.filter input,
+.filter button {
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.filter input:focus,
+.filter button:focus {
+    outline: none;
+}
+
+.filter input[type="text"] {
+    width: 40%;
+}
+
+.filter button {
+    cursor: pointer;
+}
+
+.filter button:hover {
+    background-color: #0ddc14;
+    color: white;
+    font-weight: bold;
+}
+
+.table-responsive {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th {
+    border: 1px solid #e0e0e0;
+    padding: 10px 16px;
+}
+
+table th {
+    background-color: #363a3d;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+table tbody td {
+    text-align: center;
+    border: 1px solid #d4d4d4;
+    padding: 8px 0px;
+    cursor: pointer;
+}
+
+.btn-return {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.editModal {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0; 
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.4s ease, visibility 0s linear 0.4s;
+    z-index: 10;
+}
+
+.openeditModal {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.4s ease, visibility 0s;
+}
+
+.editModal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s linear 0.4s;
+    z-index: 20;
+}
+
+.open-editModal-content {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s;
+}
+
+.editModal-content h1 {
+    position: absolute;
+    margin: -5% 0% 0% 20%;
+    padding: 1%;
+    width: 60%;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #0ddc14;
+    color: white;
+}
+
+.edit-main-content {
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.item-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+    font-size: 17px;
+}
+
+.item-content input {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 60%;
+}
+
+.item-content input:focus {
+    outline: none;
+}
+
+.item-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.item-btn button {
+    padding: 7px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.sb-btn {
+    background-color: #75f179;
+}
+
+.sb-btn:hover {
+    background-color: #0ddc14;
+    color: white;
+}

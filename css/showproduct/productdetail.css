@@ -1,0 +1,526 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    position: relative;
+    top: 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 130px;
+}
+
+.container { 
+    width: 1290px;
+}
+
+.nav-product-detail {
+    position: relative;
+    height: 40px;
+    width: 1290px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-product-detail::before {
+    content: "";
+    position: absolute;
+    left: -112px;
+    width: 1513px;
+    height: 40px;
+    background: #e0dfe0;
+    border-bottom: 1px solid #bbbbbb;
+    z-index: 1;
+}
+
+.nav-product-detail .product-name {
+    position: relative;
+    z-index: 2;
+    font-size: 15px;
+}
+
+.product-name a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.product-name span {
+    cursor: pointer;
+}
+
+.product-name span:hover {
+    color: #f83434;
+}
+
+.product-detail {
+    background-color: white;
+    display: flex;
+    margin: 30px 0px 20px 0px;
+}
+
+/* Cột một */
+.product-detail-img {
+    width: 505px;
+    position: relative;
+}
+
+.form-img {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-img img {
+    width: 400px;
+    padding: 10px;
+}
+
+.discount-percentage {
+    position: absolute;
+    border: 1px solid #eb1616;
+    border-radius: 5px;
+    background-color: #eb1616;
+    color: white;
+    top: 10px;
+    right: 30px;
+    width: 90px;
+    font-family: Helvetica;
+}
+
+.sales-percent {
+    font-size: 29px;
+    margin-left: 10px;
+}
+
+.sales-percent::after {
+    content: "%";
+    margin-left: -5px;
+}
+
+.sales-percent-second {
+    font-size: 29px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.love-product {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.love-product i {
+    font-size: 29px;
+    cursor: pointer;
+    color: #eb1616; 
+}
+
+.love-product i.fa-heart {
+    color: #eb1616; 
+}
+
+.back-info {
+    position: absolute;
+    top: 0px;
+    width: 500px;
+    height: 400px;
+    opacity: 0.4;
+    background-color: #e0dfe0;
+}
+
+.stock-info-img span {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 100%;
+    background-color: #818181;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.product-detail-img .line {
+    width: 500px;
+    height: 1px;
+    background-color: #bbbbbb;
+}
+
+.description-form {
+    margin-top: 35px;
+    padding: 15px;
+    border: 1px solid #f5f0f0;
+    border-radius: 5px;
+    background-color: #f5f0f0;
+}
+
+.description-form span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.description {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+/* Cột hai */
+.product-detail-price {
+    margin-left: 5px;
+    width: 450px;
+    padding: 10px 20px;
+}
+
+.product-detail-price .name {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.product-detail-price .price {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.price span {
+    font-weight: 600;
+}
+
+.price-detail {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 8px 0px 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.price-detail-left {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.price-detail-left .price-sale {
+    color: #eb1616;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price-detail-left .price-original {
+    font-size: 16px;
+    margin-left: 10px;
+    padding-bottom: 2px;
+    text-decoration: line-through;
+    text-decoration-thickness: 1px;
+}
+
+.stock-info {
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+}
+
+/* Nút chọn màu với dung lượng */
+.product-options {
+    margin-top: 10px;
+}
+
+.color-btn, .capacity-btn {
+    padding: 11px 18px;
+    margin: 8px 15px 3px 0px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.color-btn:hover, .capacity-btn:hover {
+    border: 1px solid #eb1616;
+    background-color: white;
+    color: #eb1616;
+}
+
+.color-btn.active,
+.capacity-btn.active {
+    border: 1px solid #eb1616;
+    background-color: white;
+    color: #eb1616;
+}
+
+.like-and-share {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-top: 1px solid #bbbbbb;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.share-icon p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.share-icon i {
+    font-size: 17px;
+}
+
+.share-icon img {
+    width: 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.share-icon img:hover {
+    transform: translateY(-5px);
+    filter: brightness(1.2);
+}
+
+.btn-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.btn-add,
+.btn-buy {
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #eb1616;
+    cursor: pointer;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+.btn-add:hover,
+.btn-buy:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+    background-color: #eb1616;
+    color: white;
+}
+
+.btn-buy {
+    width: 280px;
+    background-color: #f83434;
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.btn-add {
+    width: 110px;
+    background-color: white;
+    color: #eb1616;
+    font-size: 15px;
+}
+
+.btn-add i {
+    font-size: 25px;
+}
+
+.note {
+    margin-top: 20px;
+}
+
+.note p {
+    line-height: 35px;
+}
+
+.note span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Cột ba */
+.product-detail-btn {
+    width: 325px;
+    margin-left: 5px;
+    padding: 10px 0px;
+}
+
+.warranty {
+    border-radius: 10px;
+    border: 1px solid #eb1616;
+    padding: 10px 15px;
+}
+
+.fisrt-warranty {
+    text-align: center;
+}
+
+.fisrt-warranty i {
+    font-size: 80px;
+    color: #eb1616;
+    margin-bottom: 10px;
+}
+
+.fisrt-warranty span {
+    font-size: 20px;
+    color: #eb1616;
+}
+
+.line-warranty {
+    height: 1px;
+    width: 100%;
+    background-color: black;
+    margin: 15px 0px;
+}
+
+.second-warranty {
+    line-height: 25px;
+}
+
+.gift {
+    border: 1px solid #eb1616;
+    border-radius: 8px;
+    margin-top: 30px;
+} 
+
+.gift-name {
+    border-radius: 7px;
+    background-color: #eb1616;
+    color: white;
+    font-size: 17.5px;
+    padding: 7px 20px; 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.gift-name i {
+    font-size: 35px;
+}
+
+.gift-content {
+    padding: 7px 20px; 
+    line-height: 25px;
+    text-align: justify;
+}
+
+.gift-content span {
+    color: #eb1616;
+}
+
+/* Thông báo */
+.success-message {
+    display: none; 
+    position: fixed; 
+    top: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: green; 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    z-index: 1000; 
+    font-size: 16px; 
+    font-weight: bold;
+}
+
+.error-message {
+    display: none; 
+    position: fixed; 
+    top: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: #eb1616; 
+    color: white; 
+    padding: 10px; 
+    border-radius: 5px; 
+    z-index: 1000;
+}             
+
+/* Nhập số lượng */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 900;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 250px;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-content h3 {
+    color: #eb1616;
+    font-size: 25px;
+}
+
+.modal-content input {
+    margin-top: 35px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px
+}
+
+.modal-content input:focus {
+    outline: none;
+    border-color: #eb1616;
+}
+
+.modal-actions {
+    margin-top: 35px;
+}
+
+.modal-actions button {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 0 5px;
+}
+
+.cancel-quantity:hover {
+    background-color: #ccc;
+}
+
+.confirm-quantity:hover {
+    background-color: #eb1616;
+    color: white;
+}
+
+/* footer */
+footer {
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}

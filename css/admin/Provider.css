@@ -1,0 +1,242 @@
+/* first-filter */
+.first-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.first-filter-left {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.first-filter-left input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.first-filter-left input:focus {
+    outline: none;
+}
+
+.first-filter button {
+    height: 40px;
+    padding: 0px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.first-filter button:hover {
+    background-color: #0ddc14;
+    color: white;
+    font-weight: bold;
+}
+
+.first-filter-right {
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.first-filter-right select {
+    padding: 9px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.first-filter-right select:focus {
+    outline: none;
+}
+
+.provider-list {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th {
+    border: 1px solid #e0e0e0;
+    padding: 10px 16px;
+}
+
+table th {
+    background-color: #363a3d;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+table tbody td {
+    text-align: center;
+    border: 1px solid #d4d4d4;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0; 
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.4s ease, visibility 0s linear 0.4s;
+    z-index: 10;
+}
+
+.open-modal {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.4s ease, visibility 0s;
+}
+
+/* Chi tiết//Thêm */
+.NCCDetail-form,
+.NCCAdd-form {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    width: 30%;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s linear 0.4s;
+    z-index: 20;
+}
+
+.open-detail,
+.open-add {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s;
+}
+
+.NCCDetail-form h1,
+.NCCAdd-form h1 {
+    position: absolute;
+    padding: 1% 2%;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #0ddc14;
+    color: white;
+}
+
+.NCCDetail-form h1 {
+    margin: -5% 0% 0% 21%;
+}
+.NCCAdd-form h1 {
+    margin: -5% 0% 0% 18%;
+}
+
+.NCCDetail-form-content,
+.NCCAdd-form-content {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.NCCDetail-form-content-main,
+.NCCAdd-form-content-main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.NCCDetail-form-content-main span,
+.NCCAdd-form-content-main span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NCCDetail-form-content-main span strong,
+.NCCAdd-form-content-main span strong {
+    font-size: 17px;
+}
+
+.NCCDetail-form-content-main span input,
+.NCCAdd-form-content-main span input {
+    padding: 7px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 55%;
+}
+
+.NCCDetail-form-content-main span input:focus,
+.NCCAdd-form-content-main span input:focus {
+    outline: none;
+}
+
+.NCCDetail-form-content-footer,
+.NCCAdd-form-content-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.NCCDetail-form-content-footer button,
+.NCCAdd-form-content-footer button {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.close-detail:hover,
+.close-add:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.block:hover,
+.update:hover,
+.add:hover {
+    background-color: #0ddc14;
+    color: white;
+}
+
+.update,
+.add {
+    background-color: #7bf47f;
+}

@@ -1,0 +1,132 @@
+/* first-filter */
+.first-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.first-filter-left {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.first-filter-left input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.first-filter-left input:focus {
+    outline: none;
+}
+
+.first-filter button {
+    height: 40px;
+    padding: 0px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.first-filter button:hover {
+    background-color: #0ddc14;
+    color: white;
+    font-weight: bold;
+}
+
+/* Second-filter */
+.second-filter {
+    position: absolute;
+    top: 200px;
+    right: 55px;
+    width: max-content;
+    height: max-content;
+    text-align: left;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgb(255, 252, 246);
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+    transform: scale(0.8);
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s linear 0.4s;
+}
+
+.open-second-filter {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s;
+}
+
+.second-filter-content {
+    padding: 20px;
+}
+
+.first-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.content-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: bold;
+}
+
+.content-brand select {
+    width: 220px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.content-brand select:focus {
+    outline: none;
+}
+
+.second-content,
+.third-content {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.content-brand-second input,
+.content-brand-third select {
+    width: 220px;
+    margin-top: 5px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.fourth-content {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fourth-content button {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.fourth-content .filter-form {
+    background-color: #0ddc14;
+    color: white;
+    font-weight: bold;
+}

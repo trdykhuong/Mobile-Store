@@ -1,0 +1,149 @@
+.head-update {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 19px;
+}
+
+.head-update a {
+    text-decoration: none;
+    color: inherit;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-content {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d4d4d4;
+    padding-bottom: 5px;
+}
+
+.img-update {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.img-update img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #d4d4d4;
+}
+
+.img-update button {
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.img-update button:hover {
+    background-color: #0ddc14;
+    color: white;
+}
+
+.img-update input {
+    display: none;
+}
+
+.info-update {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 35%;
+}
+
+.info-update-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.info-update-content span {
+    font-style: italic;
+    font-size: 13px;
+    color: red;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.info-update-content-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-update-content-item label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info-update-content-item input,
+.info-update-content-item select {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 60%;
+}
+
+.info-update-content-item input:focus,
+.info-update-content-item select:focus {
+    outline: none;
+    border: 1px solid #0ddc14;
+}
+
+.detail-item {
+    display: flex;
+    gap: 20px;
+    width: 60%;
+}
+
+.radio-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.radio-item input {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+#ngayNhanChucDiv input {
+    margin-left: 21px;
+}
+
+.line-page {
+    width: 1px;
+    height: 300px;
+    border: 1px solid #d4d4d4;
+}
+
+.btn-update-end {
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+
+.btn-update-end input {
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #aee2b0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-update-end input:hover {
+    background-color: #0ddc14;
+    color: white;
+}

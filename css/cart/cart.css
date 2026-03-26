@@ -1,0 +1,347 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    position: relative;
+    top: 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 130px;
+    background-color: #EAEAEA;
+    border-bottom: 1px solid #919191;
+}
+
+.container { 
+    width: 1290px;
+}
+
+/* Thanh điều hướng */
+.nav-cart-detail {
+    position: relative;
+    height: 40px;
+    width: 1290px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-cart-detail::before {
+    content: "";
+    position: absolute;
+    left: -112px;
+    width: 1513px;
+    height: 40px;
+    background: white;
+    border-bottom: 1px solid #bbbbbb;
+    z-index: 1;
+}
+
+.nav-cart-detail .cart-name {
+    position: relative;
+    z-index: 2;
+    font-size: 15px;
+}
+
+.cart-name a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cart-name span {
+    cursor: pointer;
+}
+
+.cart-name span:hover {
+    color: #f83434;
+}
+
+/* Thanh quá trình đặt hàng */
+.cart-process {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.cart-process-line-1,
+.cart-process-line-2,
+.cart-process-line-3 {
+    width: 150px; 
+    border-top: 3px dashed #f3b8b8;
+}
+
+.cart-process-detail-1 i,
+.cart-process-detail-2 i,
+.cart-process-detail-3 i,
+.cart-process-detail-4 i {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.cart-process-detail-1 {
+    color: #eb1616;
+}
+
+.cart-process-detail-2,
+.cart-process-detail-3,
+.cart-process-detail-4 {
+    color: #f3b8b8;
+} 
+
+.cart-process-detail-name {
+    width: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cart-process-detail-name i {
+    font-size: 16px;
+}
+
+.cart-process-detail-name span {
+    margin-top: 10px;
+}
+
+/* Nội dung giỏ hàng */
+.cart-content {
+    margin: 30px 0px;
+}
+
+/* Nội dung danh sách sản phẩm */
+.cart-content-left {
+    margin-top: 20px;
+}
+
+.cart-content-left input[type=checkbox]:hover {
+    cursor: pointer;
+}
+
+.cart-content-left table {
+    width: 100%;
+}
+
+.head-cart-content-left {
+    font-size: 20px;
+    height: 50px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.head-cart-content-left a {
+    color: #eb1616;
+}
+
+.checkbox-cart-content-left span {
+    margin-left: 10px;
+}
+
+.clear-all {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+}
+
+.clear-all.active {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.cart-product {
+    margin-top: 20px;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.first-cart-product {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 800px;
+}
+
+.cart-product-img {
+    display: flex;
+    gap: 10px;
+}
+
+.cart-product-img img {
+    width: 100px;
+}
+
+.cart-product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart-product-info h4 {
+    font-size: 20px;
+}
+
+.selling-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #eb1616;
+}
+
+.basis-price {
+    font-size: 15px;
+    text-decoration: line-through;
+    margin-left: 15px;
+}
+
+.second-cart-product {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second-cart-product a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.second-cart-product i {
+    border: 1px solid #919191;
+    border-radius: 5px; 
+    background-color: #f1f1f1;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-cart-product i:hover {
+    border: 1px solid #eb1616;
+    background-color: #eb1616;
+    color: white;
+}
+
+.cart-product-quantity {
+    display: flex;
+}
+
+.cart-product-quantity button {
+    border: none;
+    background-color: #f1f1f1;
+    height: 40px;
+    width: 40px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.cart-product-quantity button:hover {
+    color: #eb1616;
+}
+
+.btn-minus {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.btn-plus {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.cart-product-quantity input {
+    height: 40px;
+    width: 60px;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    background-color: #f1f1f1;
+} 
+
+.cart-product-quantity input:focus,
+.cart-product-quantity input:active {
+    outline: none;
+}
+
+.thanhtien {
+    font-size: 18px;
+    font-weight: bold;
+    color: #eb1616;
+}
+
+/* Nội dung thanh toán */
+.cart-content-right {
+    margin-top: 20px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.total-amount {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 10px;
+}
+
+.total-amount-price {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.total-amount-price #selectedCount {
+    font-size: 16px;
+}
+
+.total-amount-price span {
+    text-align: end;
+    color: #eb1616;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+.total-amount button {
+    width: 300px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #eb1616;
+    cursor: pointer;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s ease;
+}
+
+.total-amount button:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.out-of-stock {
+    opacity: 0.5;
+}
+
+.out-of-stock-label {
+    color: red;
+    font-weight: bold;
+}

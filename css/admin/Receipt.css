@@ -1,0 +1,197 @@
+/* Filter */
+.filter {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.filter-search {
+    width: 35%;
+}
+
+.filter-search input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 17px;
+}
+
+.filter-search input:focus {
+    outline: none;
+}
+
+.filter-date input{
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 17px;
+}
+
+.filter-date input:focus {
+    outline: none;
+}
+
+.filter-merge select{
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 17px;
+}
+
+/* Bảng */
+.receipt-list {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th {
+    border: 1px solid #e0e0e0;
+    padding: 10px 16px;
+}
+
+table th {
+    background-color: #363a3d;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+table tbody td {
+    text-align: center;
+    border: 1px solid #d4d4d4;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+/* modal */
+.modal {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0; 
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.4s ease, visibility 0s linear 0.4s;
+    z-index: 10;
+}
+
+.open-modal {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.4s ease, visibility 0s;
+}
+
+/* Chi tiết phiếu */
+.receiptDetail-form,
+.addReceipt-popup {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    width: 50%;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s linear 0.4s;
+    z-index: 20;
+}
+
+.open-detail,
+.open-addreceipt {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s;
+}
+
+.receiptDetail-form h1 {
+    position: absolute;
+    padding: 1% 4%;
+    margin: -3% 0% 0% 30%;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #0ddc14;
+    color: white;
+}
+
+.receiptDetail-form-main {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.receiptDetail-form-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.receiptDetail-container {
+    overflow-y: auto;
+    max-height: 400px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.receiptDetail-container::-webkit-scrollbar {
+    display: none;
+}
+
+.name-sp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.img-sp {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.receiptDetail-form-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.receiptDetail-form-btn button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.receiptDetail-form-btn button:hover {
+    background-color: #ccc;
+}

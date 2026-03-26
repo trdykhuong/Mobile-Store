@@ -1,0 +1,123 @@
+/* Nội dung 1 */
+.first-order-detail a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.first-order-detail i {
+    font-size: 20px;
+}
+
+/* Nội dung 2 */
+.second-order-detail {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-order-detail h3 {
+    text-align: center;
+}
+
+.order-info {
+    width: 49%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.order-info p {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-info span {
+    text-align: right;
+}
+
+.line-order-detail {
+    width: 0.1px;
+    background-color: #ccc;
+}
+
+.status-update {
+    width: 49%;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.status-update label {
+    display: block;
+    font-size: 16px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.status-update input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.update-btn {
+    width: 50%;
+    padding: 10px;
+    margin: 15px 0px 0px 25%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #1eb123;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.update-btn:hover {
+    background-color: #0ddc14;
+    transform: translateY(-5px);
+}
+
+/* Nội dung 3 */
+.third-order-content {
+    margin-top: 15px;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th {
+    border: 1px solid #e0e0e0;
+    padding: 10px 16px;
+}
+
+table th {
+    background-color: #363a3d;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+table tbody td {
+    text-align: center;
+    border: 1px solid #d4d4d4;
+    padding: 3px 0px;
+}

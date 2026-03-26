@@ -1,0 +1,161 @@
+.favorite-products-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.favorite-products-list table {
+    width: 890px;
+}
+
+.favorite-products-list td img {
+    width: 70px;
+}
+
+.title-content {
+    border: 1px solid #faf7fa;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: #faf7fa;
+}
+
+.left-content {
+    display: flex;
+    gap: 20px;
+}
+
+.left-content p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.right-content {
+    display: none;
+}
+
+.right-content.active {
+    display: block;
+    font-size: 17px;
+    height: 30px;
+    width: 30px;
+    color: #eb1616;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.right-content:hover {
+    background-color: #eb1616;
+    color: white;
+}
+
+.products {
+    border: 1px solid #bbbb;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.first-td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.first-td p {
+    width: 70%;
+}
+
+.second-td {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-img {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.products .rate i {
+    color: yellow;
+}
+
+.products i {
+    color: #eb1616;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.pagination button.active {
+    background-color: #eb1616;
+    color: white;
+}
+
+.pagination button {
+    margin: 0 2px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background-color: #eb1616;
+    color: white;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Hiệu ứng trượt từ phải sang trái */
+@keyframes slideInFromRight {
+    from {
+        right: -10px; /* Bắt đầu ngoài màn hình */
+        opacity: 0;
+    }
+    to {
+        right: 50px; /* Vị trí cuối cùng */
+        opacity: 1;
+    }
+}
+
+.notification {
+    display: none; 
+    position: fixed; 
+    top: 20px; 
+    right: -10px; 
+    background-color: #4caf50; 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    z-index: 1000; 
+    font-size: 16px; 
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: slideInFromRight 0.5s ease-out forwards; /* Áp dụng hiệu ứng */
+}

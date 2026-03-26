@@ -1,0 +1,360 @@
+/* Form phân quyền hiện tại */
+.form-group-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-group-header label {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.form-group-header select {
+    width: 30%;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.form-group-content {
+    margin-top: 15px;
+}
+
+.form-group-content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-group-content-header label {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.content-role {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0% 2.5%;
+}
+
+/* Nếu dùng giao diện của thì ẩn từ dòng 43-63 và mở cmt trong 
+role-card , role-card-header, role card-body và cmt những dòng đang hiện trong những class đó, dòng 91 thì vẫn nếu ko dùng 4
+quyền */
+.role-view {
+    margin: 20px 0px 0px 29px;
+    width: calc(100% - 58px);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.name-role-detail {
+    width: 10%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.name-role {
+    width: 20%;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+}
+
+.role-card {
+    /* width: 45%;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-shadow: 0px 0px 5px #ccc; */
+    display: flex;
+    width: 100%;
+}
+
+.role-card-header {
+    border: 1px solid #ccc;
+    width: 20%;
+    padding: 5px;
+    font-weight: bold;
+    /* font-weight: bold;
+    font-size: 17px;
+    padding: 8px 0px;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 1px solid #ccc;
+    background-color: #e6e6e6; */
+}   
+
+.role-card-body {
+    width: 10%;
+    /* width: 40%; /*Nếu có đủ 4 quyền thêm sữa xóa thì dùng width này */
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    gap: 20px; */
+}
+
+.body-detail {
+    display: flex;
+    align-items: center;
+}
+
+.body-detail input {
+    cursor: pointer;
+    margin-right: 2px;
+}
+
+.btn-update {
+    display: flex;
+    justify-content: right;
+    margin-right: 2.5%;
+    width: 50%;
+}
+
+.btn-update-role {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #aee2b0;
+}
+
+.btn-update-role:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Form Thêm quyền */
+.modal {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0; 
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.4s ease, visibility 0s linear 0.4s;
+    z-index: 10;
+}
+
+.open-modal {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.4s ease, visibility 0s;
+}
+
+.form-add-role {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    width: 1100px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s linear 0.4s;
+    z-index: 20;
+    transition: all 0.7s ease;
+}
+
+.open-form-add-role  {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s;
+}
+
+.form-add-role h4 {
+    position: absolute;
+    margin: -2% 0% 0% 20%;
+    padding: 1%;
+    width: 60%;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #0ddc14;
+    color: white;
+}
+
+.form-add-role form {
+    padding: 30px 20px 20px 20px;
+}
+
+.form-group-content-add {
+    margin-top: 10px;
+}
+
+.form-group-content-add label {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.form-group-content-add .role-card-add {
+    width: calc(95% / 3);
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+.form-control {
+    width: 30%;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.form-control:focus {
+    outline: none;
+}
+
+.role-card-add {
+    width: 45%;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-shadow: 0px 0px 5px #ccc;
+    /* display: flex;
+    width: 100%; */
+}
+
+.role-card-header-add {
+    /* border: 1px solid #ccc;
+    width: 20%;
+    padding: 5px;
+    font-weight: bold; */
+    font-weight: bold;
+    font-size: 17px;
+    padding: 8px 0px;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 1px solid #ccc;
+    background-color: #e6e6e6;
+}   
+
+.role-card-body-add {
+    /* width: 10%; */
+    /* width: 40%; /*Nếu có đủ 4 quyền thêm sữa xóa thì dùng width này */
+    /* border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    gap: 20px;
+}
+
+.body-detail-add {
+    display: flex;
+    align-items: center;
+}
+
+.body-detail-add input {
+    cursor: pointer;
+    margin-right: 2px;
+}   
+
+.btn-form-add {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-form-add button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-return-add {
+    border: #ccc;
+    background-color: #ccc;
+}
+
+.btn-add-submit {
+    background-color: #0ddc14;
+    border: #0ddc14;
+    color: white;
+}
+
+/* Alert thông báo */
+@keyframes slideIn {
+    from {
+        transform: translateX(10px); 
+        opacity: 0; 
+    }
+    to {
+        transform: translateX(0); 
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0); 
+        opacity: 1; 
+    }
+    to {
+        transform: translateX(-100%); 
+        opacity: 0; 
+    }
+}
+
+/* Thông báo mặc định */
+.alert {
+    position: absolute;
+    top: 140px;
+    right: 40px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid;
+    opacity: 0; 
+    transform: translateX(100%);
+    animation-fill-mode: forwards; 
+}
+
+.alert.show {
+    animation: slideIn 0.4s ease forwards; 
+}
+
+.alert.hide {
+    animation: slideOut 0.4s ease forwards; 
+}
+
+.alert.auto-hide {
+    animation: slideIn 0.4s ease forwards, slideOut 0.4s ease 2s forwards;
+}
+
+/* Các kiểu thông báo */
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}

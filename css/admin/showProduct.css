@@ -1,0 +1,80 @@
+/* CSS cho bảng sản phẩm */
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.product-table th, .product-table td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+.product-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+/* CSS cho các ô tên sản phẩm */
+.name-row {
+    display: flex;
+    align-items: center;
+}
+
+.name-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.name-row div {
+    font-weight: bold;
+}
+
+/* CSS cho các nút hành động */
+.btn-action {
+    text-align: center;
+}
+
+.btn-action button {
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.btn-action button a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-action button a:hover {
+    text-decoration: underline;
+}
+
+/* CSS cho các nút cập nhật, khóa, mở khóa */
+.btn-update {
+    background-color: #007BFF;
+}
+
+.btn-remove {
+    background-color: #FF5733;
+}
+
+.btn-restore {
+    background-color: #FFC107;
+}
+
+/* Các trạng thái khác */
+#last-row {
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}

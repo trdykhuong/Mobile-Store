@@ -1,0 +1,578 @@
+/* Nội dung */
+.first-container {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.img-em {
+    width: 220px;
+    height: 220px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.info {
+    height: 220px;
+    min-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.info p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info .label {
+    font-weight: bold; 
+}
+
+.modal {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0; 
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.4s ease, visibility 0s linear 0.4s;
+    z-index: 10;
+}
+
+.open-modal {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.4s ease, visibility 0s;
+}
+
+/* Xin nghỉ */
+.leave-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s linear 0.4s;
+    z-index: 20;
+}
+
+.open-leaveform {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s;
+}
+
+.leave-form h1 {
+    position: absolute;
+    margin: -5% 0% 0% 20%;
+    padding: 1%;
+    width: 60%;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #0ddc14;
+    color: white;
+}
+
+.leave-container {
+    padding: 40px 0px 30px 0px;
+}
+
+.leave-info {
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.leave-info p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leave-info .label,
+.date-off label,
+.reason-off label {
+    font-weight: bold;
+}
+
+.date-off {
+    width: 70%;
+    margin: 10px 0px 0px 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.date-off input {
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.date-off input:focus {
+    outline: none;
+}
+
+.reason-off {
+    width: 70%;
+    margin: 10px 0px 0px 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.reason-off textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc; 
+    resize: none;
+}
+
+.btn-leave {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-leave button {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.submit-leave {
+    color: white;
+    background-color: #0ddc14;
+}
+
+/* Form danh sách nghỉ phép */
+.leaveRequestList {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 700px;
+    border-radius: 5px;
+    background-color: rgb(255, 252, 246);
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+    visibility: hidden;
+    transform: translate(-50%, -50%) scale(0.075);
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s linear 0.4s;
+}
+
+.open-leaveRequestList {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s;
+}
+
+.leaveRequestList h1 {
+    position: absolute;
+    margin: -4% 0% 0% 21%;
+    padding: 1%;
+    width: 60%;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #0ddc14;
+    color: white;
+}
+
+.leave-item {
+    padding: 20px;
+}
+
+.leave-table {
+    border: 1px solid;
+    width: 100%;
+}
+
+.btn-leaveRequestList {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0px;
+}
+
+.btn-leaveRequestList button {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th {
+    border: 1px solid #e0e0e0;
+    padding: 10px 16px;
+}
+
+table th {
+    background-color: #363a3d;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+table tbody td {
+    text-align: center;
+    border: 1px solid #d4d4d4;
+    padding: 5px 0px;
+}
+
+/* Bảng lương */
+.salary-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    height: max-content;
+    padding: 35px 15px 15px 15px;
+    text-align: left;
+    border-radius: 5px;
+    background-color: rgb(255, 252, 246);
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+    visibility: hidden;
+    transform: translate(-50%, -50%) scale(0.075);
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s linear 0.4s;
+}
+
+.open-salaryform {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s;
+}
+
+.close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 0px 5px 0px 0px;
+    cursor: pointer;
+    background-color: rgb(255, 252, 246);
+    transition: background-color 0.3s;
+}
+
+.close:hover {
+    background-color: #f41111;
+    color: white;
+}
+
+.cty-info h2 {
+    margin: 35px 0px 30px 0px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.head-cty-info {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.head-cty-info p {
+    font-size: 14px;
+}
+
+.cty-name-address h4 {
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+
+.contain h3 {
+    margin-bottom: 10px;
+}
+
+.main-contain {
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.left-contain,
+.right-contain {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.left-contain p,
+.right-contain p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-contain .label,
+.right-contain .label {
+    font-weight: bold;
+}
+
+
+.contain tr {
+    height: 25px;
+}
+
+.contain th, td {
+    border: 0.5px solid black;
+}
+
+.stt {
+    text-align: center;
+}
+
+.text {
+    padding-left: 1%;
+}
+
+.output-text {
+    text-align: center;
+}
+
+/* Phiếu lương */
+.PL-list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    border-radius: 5px;
+    background-color: rgb(255, 252, 246);
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+    visibility: hidden;
+    transform: translate(-50%, -50%) scale(0.075);
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s linear 0.4s;
+}
+
+.open-PL-list {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s;
+}
+
+.PL-list h1 {
+    position: absolute;
+    margin: -5% 0% 0% 17.5%;
+    padding: 1%;
+    width: 65%;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #0ddc14;
+    color: white;
+}
+
+.head-timing {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 40px);
+    padding: 5px 0px;
+    margin: 40px 0px 0px 20px;
+    font-weight: bold;
+    background-color: #ccc;
+}
+
+.head-timing p {
+    width: calc(99% / 3);
+    text-align: center;
+}
+
+.PL-content {
+    width: calc(100% - 40px);
+    height: 250px;
+    margin-left: 20px;
+    overflow-y: auto;
+}
+
+.PL-content::-webkit-scrollbar {
+    display: none;
+}
+
+.timing-hook {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.timing-hook p {
+    width: calc(99% / 3);
+    text-align: center;
+}
+
+.PL-footer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.PL-footer button {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.PL-footer button:hover {
+    background-color: #0ddc14;
+    color: white;
+}
+
+/* In phiếu lương */
+.print-salary {
+    display: none;
+}
+
+#leaveRequestList{
+    background-color: #0ddc14;
+    width: 45%;
+    height: 40vh;
+    position: absolute;
+    top: 50%;
+    margin-top: 5%;
+}
+
+#leaveRequestList h3{
+    text-align: center;
+}
+
+/* Dòng 97 js EmployeeInfo hàm loadLeaveRequest */
+.leave-item{
+    display: flex;
+}
+
+.leave-item p{
+    margin-left: 2%;
+}
+
+/* Ứng lương */
+.UngLuong {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s linear 0.4s;
+    z-index: 20;
+}
+
+.open-UngLuong {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.4s ease, visibility 0s;
+}
+
+.UngLuong h1 {
+    position: absolute;
+    margin: -5% 0% 0% 20%;
+    padding: 1%;
+    width: 60%;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #0ddc14;
+    color: white;
+}
+
+.UL-container {
+    padding: 40px 30px 30px 30px;
+}
+
+.UL-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.UL-info select,
+.UL-info input {
+    width: 30%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#tienung {
+    width: 50%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+ 
+#lydoung {
+    width: 50%;
+    height: 60px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.btn-UL {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-UL button {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px 8px;
+}
+
+#submit-UL:hover {
+    background-color: #0ddc14;
+    color: white;
+}

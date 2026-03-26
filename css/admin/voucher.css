@@ -1,0 +1,124 @@
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th {
+    border: 1px solid #e0e0e0;
+    padding: 10px 16px;
+}
+
+table th {
+    background-color: #363a3d;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+table tbody td {
+    text-align: center;
+    border: 1px solid #d4d4d4;
+    padding: 5px 0px;
+}
+
+/* Nút*/
+td a,
+.open-edit {
+    display: inline-block;
+    padding: 6px 13px;
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #ccc;
+    transition: background-color 0.3s, transform 0.2s;
+    text-decoration: none;
+    color: inherit;
+}
+
+td .open-edit {
+    background-color: #aee2b0;
+}
+
+td a[href*="delete"]{
+    background-color: #f8b3b3;
+}
+
+td .open-edit:hover {
+    background-color: #0ddc14;
+    color: white;
+    transform: translateY(-2px);
+}
+
+td a[href*="delete"]:hover {
+    background-color: #eb1616;
+    color: white;
+    transform: translateY(-2px);
+}
+/* Thông báo */
+.alert {
+    position: fixed;
+    top: 140px;
+    right: 40px;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    opacity: 0;
+    z-index: 999;
+    transition: opacity 0.5s ease-in-out;
+    background-color: #4CAF50; 
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.alert.error {
+    background-color: #f44336; 
+}
+
+.alert.show {
+    opacity: 1;
+}
+
+.alert.hide {
+    opacity: 0;
+}
+
+/* Mở form */
+.modal {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0; 
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.4s ease, visibility 0s linear 0.4s;
+    z-index: 10;
+}
+
+.open-modal {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.4s ease, visibility 0s;
+}
